@@ -1,0 +1,1589 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.23.0507.0956                               -->
+<workbook original-version='18.1' source-build='2022.3.6 (20223.23.0507.0956)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='WashingtonStateCSEducationTeachers2020-21' path='/workbooks' revision='1.1' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='2021_Comp Sci Educator Info' inline='true' name='federated.0tiihnv1awxaah14zlxyz1gptw76' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2021_Comp Sci Educator Info' name='textscan.0peqja21x2w2ak1ailnyn0fpsvv3'>
+            <connection class='textscan' directory='H:/NewUsers/everyday/Documents/My Tableau Repository/WAState/V0.1/DataPrep' filename='2021_Comp Sci Educator Info.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0peqja21x2w2ak1ailnyn0fpsvv3' name='2021_Comp Sci Educator Info.csv' table='[2021_Comp Sci Educator Info#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='DistrictName' ordinal='0' />
+            <column datatype='string' name='SchoolName' ordinal='1' />
+            <column datatype='string' name='Category' ordinal='2' />
+            <column datatype='string' name='Subcategory' ordinal='3' />
+            <column datatype='integer' name='Count' ordinal='4' />
+            <column datatype='real' name='Percent' ordinal='5' />
+            <column datatype='integer' name='TotalCount' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0peqja21x2w2ak1ailnyn0fpsvv3' name='2021_Comp Sci Educator Info.csv' table='[2021_Comp Sci Educator Info#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='DistrictName' ordinal='0' />
+            <column datatype='string' name='SchoolName' ordinal='1' />
+            <column datatype='string' name='Category' ordinal='2' />
+            <column datatype='string' name='Subcategory' ordinal='3' />
+            <column datatype='integer' name='Count' ordinal='4' />
+            <column datatype='real' name='Percent' ordinal='5' />
+            <column datatype='integer' name='TotalCount' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2021_Comp Sci Educator Info.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DistrictName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DistrictName]</local-name>
+            <parent-name>[2021_Comp Sci Educator Info.csv]</parent-name>
+            <remote-alias>DistrictName</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SchoolName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SchoolName]</local-name>
+            <parent-name>[2021_Comp Sci Educator Info.csv]</parent-name>
+            <remote-alias>SchoolName</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[2021_Comp Sci Educator Info.csv]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Subcategory</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Subcategory]</local-name>
+            <parent-name>[2021_Comp Sci Educator Info.csv]</parent-name>
+            <remote-alias>Subcategory</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Count]</local-name>
+            <parent-name>[2021_Comp Sci Educator Info.csv]</parent-name>
+            <remote-alias>Count</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percent]</local-name>
+            <parent-name>[2021_Comp Sci Educator Info.csv]</parent-name>
+            <remote-alias>Percent</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalCount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TotalCount]</local-name>
+            <parent-name>[2021_Comp Sci Educator Info.csv]</parent-name>
+            <remote-alias>TotalCount</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='District Name' datatype='string' name='[DistrictName]' role='dimension' type='nominal' />
+      <column datatype='real' default-format='p0.0%' name='[Percent]' role='measure' type='quantitative' />
+      <column caption='School Name' datatype='string' name='[SchoolName]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Subcategory (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Subcategory]' new-bin='true'>
+          <bin default-name='false' value='&quot;Adminstator&quot;'>
+            <value>&quot;A230715 - CONTINUING ADMINISTRATOR&quot;</value>
+            <value>&quot;A310515 - RESIDENCY ADMINISTRATOR (FIRST ISSUE)&quot;</value>
+            <value>&quot;A320715 - RESIDENCY ADMINISTRATOR (RENEWAL)&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;CTE Conditional&quot;'>
+            <value>&quot;CCTE101 - CAREER AND TECHNICAL EDUCATION PROBATIONARY TEACHER&quot;</value>
+            <value>&quot;CCTE102 - CAREER AND TECHNICAL ED PROBATIONARY TEACHER (RENEWAL)&quot;</value>
+            <value>&quot;CCTE203 - CAREER AND TECHNICAL EDUCATION CONDITIONAL TEACHER&quot;</value>
+            <value>&quot;CCTE205 - CAREER AND TECHNICAL ED CONDITIONAL TEACHER (RENEWAL)&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;CTE Director&quot;'>
+            <value>&quot;ACTE200 - CAREER AND TECHNICAL EDUCATION DIRECTOR&quot;</value>
+            <value>&quot;ACTE300 - INITIAL CAREER AND TECHNICAL EDUCATION DIRECTOR&quot;</value>
+            <value>&quot;ACTE400 - INITIAL CAREER AND TECHNICAL EDUCATION DIRECTOR (RENEWAL)&quot;</value>
+            <value>&quot;ACTE500 - CONTINUING CAREER AND TECHNICAL EDUCATION DIRECTOR&quot;</value>
+            <value>&quot;ACTE600 - CONTINUING CAREER AND TECHNICAL EDUCATION DIRECTOR (RENEWAL)&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;CTE Intial/Renewal&quot;'>
+            <value>&quot;ECTE300 - CTE Initial Career Guidance Specialist&quot;</value>
+            <value>&quot;TCTE100 - CAREER AND TECHNICAL EDUCATION INITIAL TEACHER&quot;</value>
+            <value>&quot;TCTE300 - CAREER AND TECHNICAL ED INITIAL TEACHER (RENEWAL)&quot;</value>
+            <value>&quot;TCTE500 - CAREER AND TECHNICAL EDUCATION CONTINUING TEACHER&quot;</value>
+            <value>&quot;TCTE700 - CAREER AND TECHNICAL ED CONTINUING TEACHER (RENEWAL)&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Emergency, Conditional, Substitute&quot;'>
+            <value>&quot;C250700 - EMERGENCY TEACHER&quot;</value>
+            <value>&quot;C260700 - SUBSTITUTE TEACHER&quot;</value>
+            <value>&quot;C270700 - EMERGENCY SUBSTITUTE TEACHER&quot;</value>
+            <value>&quot;C280700 - CONDITIONAL CERTIFICATE&quot;</value>
+            <value>&quot;E230716 - CONTINUING EDUCATIONAL STAFF ASSOCIATE&quot;</value>
+            <value>&quot;PRERES - PRE-RESIDENCY CERTIFICATE CLEARANCE&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Teacher (non-CTE)&quot;'>
+            <value>&quot;1043700 - CONTINUING ELEMENTARY AND SECONDARY TEACHER&quot;</value>
+            <value>&quot;T210000 - CONTINUING TEACHER&quot;</value>
+            <value>&quot;T230700 - CONTINUING TEACHER&quot;</value>
+            <value>&quot;T310500 - RESIDENCY TEACHER (PROVISIONAL STATUS)&quot;</value>
+            <value>&quot;T310600 - RESIDENCY TEACHER (FIRST ISSUE)&quot;</value>
+            <value>&quot;T320500 - RESIDENCY TEACHER&quot;</value>
+            <value>&quot;T320800 - RESIDENCY TEACHER (RENEWAL)&quot;</value>
+            <value>&quot;T320900 - RESIDENCY TEACHER (RENEWAL)&quot;</value>
+            <value>&quot;T330500 - PROFESSIONAL TEACHER&quot;</value>
+            <value>&quot;T330600 - PROFESSIONAL TEACHER&quot;</value>
+            <value>&quot;T330800 - PROFESSIONAL TEACHER (RENEWAL)&quot;</value>
+            <value>&quot;T330900 - PROFESSIONAL TEACHER (RENEWAL)&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Subcategory]' role='dimension' type='nominal' />
+      <column caption='Total Count' datatype='integer' name='[TotalCount]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='2021_Comp Sci Educator Info.csv' datatype='table' name='[__tableau_internal_object_id__].[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]' role='measure' type='quantitative' />
+      <column-instance column='[Subcategory]' derivation='None' name='[none:Subcategory:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='H:/NewUsers/everyday/Documents/My Tableau Repository/WAState/V0.1/2021_Comp Sci Educator Info.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='06/24/2023 11:29:43 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='2021_Comp Sci Educator Info' increment-value='%null%' refresh-type='create' rows-inserted='2646' timestamp-start='2023-06-24 23:29:43.222' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>DistrictName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[DistrictName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DistrictName</remote-alias>
+              <ordinal>0</ordinal>
+              <family>2021_Comp Sci Educator Info.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>176</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SchoolName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SchoolName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SchoolName</remote-alias>
+              <ordinal>1</ordinal>
+              <family>2021_Comp Sci Educator Info.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>423</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>2</ordinal>
+              <family>2021_Comp Sci Educator Info.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Subcategory</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Subcategory]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Subcategory</remote-alias>
+              <ordinal>3</ordinal>
+              <family>2021_Comp Sci Educator Info.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Count</remote-alias>
+              <ordinal>4</ordinal>
+              <family>2021_Comp Sci Educator Info.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Percent</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Percent]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Percent</remote-alias>
+              <ordinal>5</ordinal>
+              <family>2021_Comp Sci Educator Info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TotalCount</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TotalCount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TotalCount</remote-alias>
+              <ordinal>6</ordinal>
+              <family>2021_Comp Sci Educator Info.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[Subcategory (group)]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Adminstator&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bachelor&apos;s Degree&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Two or more races&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Emergency, Conditional, Substitute&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Native Hawaiian/ Other Pacific Islander&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;CTE Intial/Renewal&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Other/Non Degreed&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Black/ African American&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;American Indian/ Alaska Native&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Hispanic/ Latino of any race(s)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CTE Director&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Master&apos;s Degree&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Not Provided&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Teacher (non-CTE)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CTE Conditional&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Doctoral Degree&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;White&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Asian&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Subcategory:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bachelor&apos;s Degree&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Two or more races&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Native Hawaiian/ Other Pacific Islander&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Other/Non Degreed&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Black/ African American&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;American Indian/ Alaska Native&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Hispanic/ Latino of any race(s)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Master&apos;s Degree&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Not Provided&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Doctoral Degree&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;White&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Asian&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='2021_Comp Sci Educator Info.csv' id='2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134'>
+            <properties context=''>
+              <relation connection='textscan.0peqja21x2w2ak1ailnyn0fpsvv3' name='2021_Comp Sci Educator Info.csv' table='[2021_Comp Sci Educator Info#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='DistrictName' ordinal='0' />
+                  <column datatype='string' name='SchoolName' ordinal='1' />
+                  <column datatype='string' name='Category' ordinal='2' />
+                  <column datatype='string' name='Subcategory' ordinal='3' />
+                  <column datatype='integer' name='Count' ordinal='4' />
+                  <column datatype='real' name='Percent' ordinal='5' />
+                  <column datatype='integer' name='TotalCount' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Certification'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Certificate Information</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2021_Comp Sci Educator Info' name='federated.0tiihnv1awxaah14zlxyz1gptw76' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tiihnv1awxaah14zlxyz1gptw76'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Count]' role='measure' type='quantitative' />
+            <column datatype='real' default-format='p0.0%' name='[Percent]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Subcategory (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Subcategory]' new-bin='true'>
+                <bin default-name='false' value='&quot;Adminstator&quot;'>
+                  <value>&quot;A230715 - CONTINUING ADMINISTRATOR&quot;</value>
+                  <value>&quot;A310515 - RESIDENCY ADMINISTRATOR (FIRST ISSUE)&quot;</value>
+                  <value>&quot;A320715 - RESIDENCY ADMINISTRATOR (RENEWAL)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;CTE Conditional&quot;'>
+                  <value>&quot;CCTE101 - CAREER AND TECHNICAL EDUCATION PROBATIONARY TEACHER&quot;</value>
+                  <value>&quot;CCTE102 - CAREER AND TECHNICAL ED PROBATIONARY TEACHER (RENEWAL)&quot;</value>
+                  <value>&quot;CCTE203 - CAREER AND TECHNICAL EDUCATION CONDITIONAL TEACHER&quot;</value>
+                  <value>&quot;CCTE205 - CAREER AND TECHNICAL ED CONDITIONAL TEACHER (RENEWAL)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;CTE Director&quot;'>
+                  <value>&quot;ACTE200 - CAREER AND TECHNICAL EDUCATION DIRECTOR&quot;</value>
+                  <value>&quot;ACTE300 - INITIAL CAREER AND TECHNICAL EDUCATION DIRECTOR&quot;</value>
+                  <value>&quot;ACTE400 - INITIAL CAREER AND TECHNICAL EDUCATION DIRECTOR (RENEWAL)&quot;</value>
+                  <value>&quot;ACTE500 - CONTINUING CAREER AND TECHNICAL EDUCATION DIRECTOR&quot;</value>
+                  <value>&quot;ACTE600 - CONTINUING CAREER AND TECHNICAL EDUCATION DIRECTOR (RENEWAL)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;CTE Intial/Renewal&quot;'>
+                  <value>&quot;ECTE300 - CTE Initial Career Guidance Specialist&quot;</value>
+                  <value>&quot;TCTE100 - CAREER AND TECHNICAL EDUCATION INITIAL TEACHER&quot;</value>
+                  <value>&quot;TCTE300 - CAREER AND TECHNICAL ED INITIAL TEACHER (RENEWAL)&quot;</value>
+                  <value>&quot;TCTE500 - CAREER AND TECHNICAL EDUCATION CONTINUING TEACHER&quot;</value>
+                  <value>&quot;TCTE700 - CAREER AND TECHNICAL ED CONTINUING TEACHER (RENEWAL)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Emergency, Conditional, Substitute&quot;'>
+                  <value>&quot;C250700 - EMERGENCY TEACHER&quot;</value>
+                  <value>&quot;C260700 - SUBSTITUTE TEACHER&quot;</value>
+                  <value>&quot;C270700 - EMERGENCY SUBSTITUTE TEACHER&quot;</value>
+                  <value>&quot;C280700 - CONDITIONAL CERTIFICATE&quot;</value>
+                  <value>&quot;E230716 - CONTINUING EDUCATIONAL STAFF ASSOCIATE&quot;</value>
+                  <value>&quot;PRERES - PRE-RESIDENCY CERTIFICATE CLEARANCE&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Teacher (non-CTE)&quot;'>
+                  <value>&quot;1043700 - CONTINUING ELEMENTARY AND SECONDARY TEACHER&quot;</value>
+                  <value>&quot;T210000 - CONTINUING TEACHER&quot;</value>
+                  <value>&quot;T230700 - CONTINUING TEACHER&quot;</value>
+                  <value>&quot;T310500 - RESIDENCY TEACHER (PROVISIONAL STATUS)&quot;</value>
+                  <value>&quot;T310600 - RESIDENCY TEACHER (FIRST ISSUE)&quot;</value>
+                  <value>&quot;T320500 - RESIDENCY TEACHER&quot;</value>
+                  <value>&quot;T320800 - RESIDENCY TEACHER (RENEWAL)&quot;</value>
+                  <value>&quot;T320900 - RESIDENCY TEACHER (RENEWAL)&quot;</value>
+                  <value>&quot;T330500 - PROFESSIONAL TEACHER&quot;</value>
+                  <value>&quot;T330600 - PROFESSIONAL TEACHER&quot;</value>
+                  <value>&quot;T330800 - PROFESSIONAL TEACHER (RENEWAL)&quot;</value>
+                  <value>&quot;T330900 - PROFESSIONAL TEACHER (RENEWAL)&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Subcategory]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='2021_Comp Sci Educator Info.csv' datatype='integer' name='[__tableau_internal_object_id__].[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]' role='measure' type='quantitative' />
+            <column caption='Total Count' datatype='integer' name='[TotalCount]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='2021_Comp Sci Educator Info.csv' datatype='table' name='[__tableau_internal_object_id__].[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:2021_Comp Sci Educator Info.csv_9A9DDDD9B496437285CF92AF9092F134:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Count]' derivation='Sum' name='[sum:Count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Percent]' derivation='Sum' name='[sum:Percent:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TotalCount]' derivation='Sum' name='[sum:TotalCount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[Subcategory (group)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Subcategory (group)]' />
+              <groupfilter function='member' level='[Subcategory (group)]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Category:nk]'>
+            <groupfilter function='member' level='[none:Category:nk]' member='&quot;Certificate&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Category:nk]</column>
+            <column>[federated.0tiihnv1awxaah14zlxyz1gptw76].[Subcategory (group)]</column>
+            <column>[federated.0tiihnv1awxaah14zlxyz1gptw76].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0tiihnv1awxaah14zlxyz1gptw76].[Multiple Values]</rows>
+        <cols>[federated.0tiihnv1awxaah14zlxyz1gptw76].[Subcategory (group)]</cols>
+      </table>
+      <simple-id uuid='{8FF502DD-7411-4544-9F0C-B269F0EE5A59}' />
+    </worksheet>
+    <worksheet name='Degree'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Degree Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2021_Comp Sci Educator Info' name='federated.0tiihnv1awxaah14zlxyz1gptw76' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tiihnv1awxaah14zlxyz1gptw76'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Count]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Subcategory]' role='dimension' type='nominal' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Subcategory]' derivation='None' name='[none:Subcategory:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Count]' derivation='Sum' name='[pcto:sum:Count:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Count]' derivation='Sum' name='[sum:Count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Category:nk]'>
+            <groupfilter function='member' level='[none:Category:nk]' member='&quot;Degree&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]' />
+              <wedge-size column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]' />
+              <size column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]' />
+              <text column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]' />
+              <text column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Degree:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Percentage:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{64DD96E3-EF85-487B-8D54-044A9BF3808C}' />
+    </worksheet>
+    <worksheet name='Gender'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Gender</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2021_Comp Sci Educator Info' name='federated.0tiihnv1awxaah14zlxyz1gptw76' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tiihnv1awxaah14zlxyz1gptw76'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Count]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Subcategory]' role='dimension' type='nominal' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Subcategory]' derivation='None' name='[none:Subcategory:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Count]' derivation='Sum' name='[pcto:sum:Count:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Count]' derivation='Sum' name='[sum:Count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Category:nk]'>
+            <groupfilter function='member' level='[none:Category:nk]' member='&quot;Gender&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]' />
+              <wedge-size column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]' />
+              <size column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]' />
+              <text column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]' />
+              <text column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Degree:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Percentage:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BEFA11B9-541F-4B01-A8CB-71C2C2F35D76}' />
+    </worksheet>
+    <worksheet name='Race/Ethnic'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Race Ethnicity</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2021_Comp Sci Educator Info' name='federated.0tiihnv1awxaah14zlxyz1gptw76' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tiihnv1awxaah14zlxyz1gptw76'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Count]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Subcategory]' role='dimension' type='nominal' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Subcategory]' derivation='None' name='[none:Subcategory:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Count]' derivation='Sum' name='[pcto:sum:Count:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Count]' derivation='Sum' name='[sum:Count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Category:nk]'>
+            <groupfilter function='member' level='[none:Category:nk]' member='&quot;RaceEthnicity&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;White&quot;</bucket>
+              <bucket>&quot;Asian&quot;</bucket>
+              <bucket>&quot;Hispanic/ Latino of any race(s)&quot;</bucket>
+              <bucket>&quot;Black/ African American&quot;</bucket>
+              <bucket>&quot;American Indian/ Alaska Native&quot;</bucket>
+              <bucket>&quot;Native Hawaiian/ Other Pacific Islander&quot;</bucket>
+              <bucket>&quot;Two or more races&quot;</bucket>
+              <bucket>&quot;Not Provided&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]' />
+              <wedge-size column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]' />
+              <size column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]' />
+              <text column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]' />
+              <text column='[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Degree:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Percentage:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]</field>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]</field>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Native Hawaiian/ Other Pacific Islander&quot;</value>
+                <value>1</value>
+                <value>0.0015974440894568689</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]</field>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]</field>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Asian&quot;</value>
+                <value>19</value>
+                <value>0.03035143769968051</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]</field>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]</field>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Indian/ Alaska Native&quot;</value>
+                <value>1</value>
+                <value>0.0015974440894568689</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]</field>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]</field>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Hispanic/ Latino of any race(s)&quot;</value>
+                <value>18</value>
+                <value>0.028753993610223641</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-118' y='24' />
+          </mark-label>
+          <mark-label id='4'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]</field>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]</field>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Black/ African American&quot;</value>
+                <value>15</value>
+                <value>0.023961661341853034</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='21' y='35' />
+          </mark-label>
+          <mark-label id='5' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]</field>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]</field>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Two or more races&quot;</value>
+                <value>12</value>
+                <value>0.019169329073482427</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='6' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]</field>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]</field>
+                  <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Not Provided&quot;</value>
+                <value>7</value>
+                <value>0.011182108626198083</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{05833D04-1046-4032-88B2-C252175E3B50}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Washington State CS Education Teachers 2020-21 Alpha'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='43500' id='3' name='Race/Ethnic' w='41200' x='800' y='8125'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='43500' id='10' name='Gender' w='41200' x='42000' y='8125'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='47375' id='11' name='Degree' w='41200' x='800' y='51625'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='47375' id='12' name='Certification' w='41200' x='42000' y='51625'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='true' h='7125' id='13' type-v2='text' w='82400' x='800' y='1000'>
+                <formatted-text>
+                  <run fontsize='18'>Washington State CS Education Teachers 2020-21</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='23250' id='8' name='Race/Ethnic' pane-specification-id='0' param='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]' type-v2='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='27500' id='14' type-v2='text' w='14700' x='83800' y='30625'>
+          <formatted-text>
+            <run fontcolor='#ff0000' fontsize='14'>Data represent 626 educators in 388 schools (both middle and high schools) </run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='28' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='27' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone forceUpdate='true' h='7125' id='13' type-v2='text' w='82400' x='800' y='1000'>
+                  <formatted-text>
+                    <run fontsize='18'>Washington State CS Education Teachers 2020-21</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43500' id='3' is-fixed='true' name='Race/Ethnic' w='41200' x='800' y='8125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='23250' id='8' name='Race/Ethnic' pane-specification-id='0' param='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]' type-v2='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43500' id='10' is-fixed='true' name='Gender' w='41200' x='42000' y='8125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='27500' id='14' type-v2='text' w='14700' x='83800' y='30625'>
+                  <formatted-text>
+                    <run fontcolor='#ff0000' fontsize='14'>Data represent 626 educators in 388 schools (both middle and high schools) </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47375' id='11' is-fixed='true' name='Degree' w='41200' x='800' y='51625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47375' id='12' is-fixed='true' name='Certification' w='41200' x='42000' y='51625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C61FF355-CBEE-4A00-99E6-235C868924BA}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' maximized='true' name='Washington State CS Education Teachers 2020-21 Alpha'>
+      <viewpoints>
+        <viewpoint name='Certification'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Degree'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Gender'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Race/Ethnic'>
+          <zoom type='entire-view' />
+          <selection-collection>
+            <tuple-selection>
+              <tuple-reference>
+                <tuple-descriptor>
+                  <pane-descriptor>
+                    <x-fields />
+                    <y-fields />
+                  </pane-descriptor>
+                  <columns>
+                    <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]</field>
+                    <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]</field>
+                    <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[pcto:sum:Count:qk]</field>
+                  </columns>
+                </tuple-descriptor>
+                <tuple>
+                  <value>&quot;White&quot;</value>
+                  <value>553</value>
+                  <value>0.88338658146964855</value>
+                </tuple>
+              </tuple-reference>
+            </tuple-selection>
+          </selection-collection>
+          <highlight field='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{C32E26B9-50D2-4449-AA42-850D442C60D5}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Certification'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[Subcategory (group)]</field>
+            <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Category:nk]</field>
+            <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1B4918DF-3F6D-4F01-9B6D-D7CF82CC5981}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Degree'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Category:nk]</field>
+            <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B186BE72-8EBF-4C54-A462-E9C197C4D543}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Category:nk]</field>
+            <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{59E7BCB4-D953-4FEF-8B3C-33DC4A6494B7}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Race/Ethnic'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0tiihnv1awxaah14zlxyz1gptw76].[sum:Count:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Category:nk]</field>
+            <field>[federated.0tiihnv1awxaah14zlxyz1gptw76].[none:Subcategory:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CA0220AD-A4C5-4024-8276-ED3FBAB63176}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Washington State CS Education Teachers 2020-21 Alpha' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

@@ -1,0 +1,716 @@
+,DistrictCode,SchoolCode,SchoolName,Program,StudentGroup,TotalStudents,CSE-All,CSE-CourseCode
+0,1109,3075,Washtucna Elementary/High School,AllStudents,All Students,23,5,5
+8,1147,3015,Othello High School,AllStudents,All Students,1253,64,64
+23,1158,2903,Lind-Ritzville High School,AllStudents,All Students,54,17,17
+36,1160,2132,Ritzville High School,AllStudents,All Students,105,23,23
+48,2250,1617,Educational Opportunity Center,AllStudents,All Students,126,0,0
+62,2250,2299,Charles Francis Adams High School,AllStudents,All Students,856,24,24
+80,2420,2434,Asotin Jr Sr High,AllStudents,All Students,199,14,0
+95,3017,1884,Legacy High School,AllStudents,All Students,301,1,0
+111,3017,2826,Kennewick High School,AllStudents,All Students,1785,221,178
+129,3017,3731,Kamiakin High School,AllStudents,All Students,1960,199,150
+147,3017,4007,Benton/Franklin Juvenile Justice Center,AllStudents,All Students,111,0,0
+161,3017,4118,Tri-Tech Skills Center,AllStudents,All Students,27,3,1
+171,3017,4484,Southridge High School,AllStudents,All Students,1873,129,84
+190,3052,2904,Kiona-Benton City High School,AllStudents,All Students,425,0,0
+206,3053,2367,River View High School,AllStudents,All Students,334,22,0
+221,3116,2508,Prosser High School,AllStudents,All Students,916,34,34
+237,3400,3511,Richland High School,AllStudents,All Students,2214,77,77
+256,3400,3833,Hanford High School,AllStudents,All Students,2084,117,117
+275,3400,4295,Rivers Edge High School,AllStudents,All Students,373,0,0
+291,4019,2623,Manson High School,AllStudents,All Students,232,55,43
+306,4127,3317,Entiat Middle and High School,AllStudents,All Students,89,0,0
+321,4129,4260,Chelan High School,AllStudents,All Students,452,0,0
+336,4222,3268,CASHMERE HIGH SCHOOL,AllStudents,All Students,503,125,3
+352,4228,3564,Cascade High School,AllStudents,All Students,434,28,25
+368,4246,1613,Westside High School,AllStudents,All Students,338,0,0
+383,4246,1802,Chelan County Juvenile Detention Center,AllStudents,All Students,37,0,0
+393,4246,2134,Wenatchee High School,AllStudents,All Students,2109,121,121
+410,5121,2908,Port Angeles High School,AllStudents,All Students,975,66,66
+429,18801,3143,Clallam Co Juvenile Detention,AllStudents,All Students,26,0,0
+436,5121,4003,Lincoln High School,AllStudents,All Students,88,0,0
+446,5313,3473,Crescent School,AllStudents,All Students,79,8,8
+458,5323,1708,Olympic Peninsula Academy,AllStudents,All Students,11,0,0
+462,5323,2471,Sequim Senior High,AllStudents,All Students,886,100,100
+479,5401,3145,Neah Bay Junior/ Senior High School,AllStudents,All Students,112,0,0
+494,5401,3422,Clallam Bay High & Elementary,AllStudents,All Students,37,1,1
+504,5402,2349,Forks High School,AllStudents,All Students,316,0,0
+521,6037,1574,Jim Tangeman Center,AllStudents,All Students,19,0,0
+527,6037,1689,Vancouver School of Arts and Academics,AllStudents,All Students,323,0,0
+542,6037,1738,Gate Work Study Program,AllStudents,All Students,39,0,0
+551,6037,2179,Fort Vancouver High School,AllStudents,All Students,1725,32,32
+570,6037,3081,Hudson's Bay High School,AllStudents,All Students,1256,32,32
+589,6037,3423,Columbia River High,AllStudents,All Students,1206,56,56
+607,34974,3799,Washington State School for the Blind,AllStudents,All Students,39,8,8
+618,6037,3932,Lewis and Clark High School,AllStudents,All Students,81,0,0
+633,34975,4246,Washington State School for the Deaf,AllStudents,All Students,42,0,0
+644,6037,4504,Skyview High School,AllStudents,All Students,1885,86,86
+663,6098,4568,Hockinson High School,AllStudents,All Students,690,18,0
+680,6101,4431,La Center High School,AllStudents,All Students,544,0,0
+696,6112,3147,Washougal High School,AllStudents,All Students,1078,34,9
+714,6114,1646,Hollingsworth Academy,AllStudents,All Students,90,0,0
+724,6114,2724,Evergreen High School,AllStudents,All Students,1645,101,101
+744,6114,4042,Legacy High School,AllStudents,All Students,237,0,0
+759,6114,4162,Mountain View High School,AllStudents,All Students,1713,93,93
+778,6114,4203,Cascadia Technical Academy Skills Center,AllStudents,All Students,427,18,18
+790,6114,4523,Heritage High School,AllStudents,All Students,1775,223,222
+810,6117,4567,Camas High School,AllStudents,All Students,2259,127,93
+829,6119,1836,CAM Academy,AllStudents,All Students,212,10,10
+842,6119,1875,Homelink River,AllStudents,All Students,569,14,14
+858,6119,2415,Battle Ground High School,AllStudents,All Students,1630,138,110
+877,6119,4104,Prairie High School,AllStudents,All Students,1558,101,76
+897,6119,4450,Summit View High School,AllStudents,All Students,505,0,0
+913,6122,2390,Ridgefield High School,AllStudents,All Students,1037,33,33
+930,7002,2302,Dayton High School,AllStudents,All Students,134,0,0
+944,8122,2416,R A Long High School,AllStudents,All Students,958,21,0
+964,8122,3151,Mark Morris High School,AllStudents,All Students,917,0,0
+982,8130,2560,Toutle Lake High School,AllStudents,All Students,215,48,48
+996,8401,2281,Castle Rock High School,AllStudents,All Students,465,0,0
+1012,8404,1795,Woodland Alternative School,AllStudents,All Students,217,45,45
+1026,8404,3546,Woodland High School,AllStudents,All Students,693,28,28
+1042,8458,2266,Kelso High School,AllStudents,All Students,1546,89,89
+1061,6801,3294,Cowlitz County Youth Services Center,AllStudents,All Students,68,0,0
+1072,9075,2788,Bridgeport High School,AllStudents,All Students,228,52,52
+1087,9206,2727,Eastmont Senior High,AllStudents,All Students,1480,60,60
+1102,9206,3372,Eastmont Junior High,AllStudents,All Students,543,43,41
+1115,4246,4105,Wenatchee Valley Technical Skills Center,AllStudents,All Students,94,8,8
+1126,9207,2233,Mansfield Elem and High School,AllStudents,All Students,31,0,0
+1135,9209,2162,Waterville High School,AllStudents,All Students,101,6,6
+1149,10050,2006,Curlew Elem & High School,AllStudents,All Students,157,0,0
+1163,10070,2603,Inchelium High School,AllStudents,All Students,84,0,0
+1177,10309,3579,Republic Senior High School,AllStudents,All Students,99,6,6
+1189,11001,2917,Pasco Senior High School,AllStudents,All Students,2549,47,47
+1208,11001,3912,New Horizons High School,AllStudents,All Students,376,30,0
+1222,11051,1754,Palouse Junction High School,AllStudents,All Students,45,0,0
+1234,11051,3272,Connell High School,AllStudents,All Students,668,113,0
+1250,11056,3214,Kahlotus Elem & High,AllStudents,All Students,14,0,0
+1255,12110,2241,Pomeroy Jr Sr High School,AllStudents,All Students,102,13,0
+1268,13073,1835,Sentinel Tech Alt School,AllStudents,All Students,40,0,0
+1277,13073,4254,Wahluke High School,AllStudents,All Students,752,20,0
+1292,13144,3088,Quincy High School,AllStudents,All Students,876,47,47
+1307,13146,3273,Warden High School,AllStudents,All Students,290,25,25
+1322,13151,2968,Almira Coulee Hartline High School,AllStudents,All Students,96,17,0
+1335,13156,1518,RISE Academy,AllStudents,All Students,40,0,0
+1347,13156,3089,Soap Lake Middle & High School,AllStudents,All Students,179,21,17
+1362,13160,3516,Royal High School,AllStudents,All Students,547,90,90
+1377,13161,3215,Moses Lake High School,AllStudents,All Students,2478,139,71
+1395,13165,2920,Ephrata High School,AllStudents,All Students,879,22,22
+1411,13167,2473,Wilson Creek High,AllStudents,All Students,47,0,0
+1423,13301,2801,Lake Roosevelt Jr/Sr High School,AllStudents,All Students,244,9,9
+1440,14005,3476,J M Weatherwax High School,AllStudents,All Students,1036,89,89
+1459,14005,3857,Harbor Junior/Senior High School,AllStudents,All Students,119,0,0
+1471,14005,4267,Grays Harbor Juvenile Detention,AllStudents,All Students,47,0,0
+1480,14028,3622,Hoquiam High School,AllStudents,All Students,493,5,5
+1497,14064,2728,North Beach Senior High School,AllStudents,All Students,224,0,0
+1514,14066,2180,Montesano Jr-Sr High,AllStudents,All Students,472,0,0
+1529,14068,1629,East Grays Harbor High School,AllStudents,All Students,25,0,0
+1537,14068,2137,Elma High School,AllStudents,All Students,536,0,0
+1553,14077,3580,Taholah High School,AllStudents,All Students,73,0,0
+1567,14097,2921,Lake Quinault School,AllStudents,All Students,58,0,0
+1580,14117,3375,Wishkah Valley Elementary/High School,AllStudents,All Students,54,2,2
+1591,14172,3024,Ocosta Junior - Senior High,AllStudents,All Students,205,0,0
+1608,14400,2283,Oakville High School,AllStudents,All Students,95,0,0
+1624,15201,1758,Homeconnection,AllStudents,All Students,76,0,0
+1636,15201,2974,Oak Harbor High School,AllStudents,All Students,1552,261,260
+1655,15204,2625,Coupeville High School,AllStudents,All Students,288,0,0
+1670,15206,1682,South Whidbey Academy,AllStudents,All Students,59,0,0
+1681,15206,4149,South Whidbey High School,AllStudents,All Students,451,0,0
+1697,16048,2474,Quilcene High And Elementary,AllStudents,All Students,106,0,0
+1711,16049,1724,PI Program,AllStudents,All Students,28,0,0
+1720,16049,3275,Chimacum Junior/Senior High School,AllStudents,All Students,225,34,34
+1735,16050,1798,OCEAN,AllStudents,All Students,60,2,2
+1746,16050,2503,Port Townsend High School,AllStudents,All Students,406,28,7
+1761,17001,1547,Middle College High School,AllStudents,All Students,89,1,0
+1776,17001,1596,Seattle World School,AllStudents,All Students,304,81,81
+1790,17001,1635,Interagency Programs,AllStudents,All Students,475,0,0
+1809,17001,1856,The Center School,AllStudents,All Students,278,0,0
+1826,17001,2182,Franklin High School,AllStudents,All Students,1278,73,73
+1844,17001,2220,Ballard High School,AllStudents,All Students,1771,153,153
+1863,17001,2234,West Seattle High School,AllStudents,All Students,1170,0,0
+1881,17001,2285,Roosevelt High School,AllStudents,All Students,1734,175,175
+1900,17001,2306,Garfield High School,AllStudents,All Students,1778,173,173
+1918,17001,2392,Cleveland High School STEM,AllStudents,All Students,927,166,152
+1936,17001,3096,Chief Sealth International High School,AllStudents,All Students,1180,53,50
+1956,17001,3276,Ingraham High School,AllStudents,All Students,1511,176,176
+1975,17001,3327,Rainier Beach High School,AllStudents,All Students,833,1,0
+1994,17001,3479,Nathan Hale High School,AllStudents,All Students,1172,78,78
+2014,17001,3778,Alan T. Sugiyama High School,AllStudents,All Students,54,0,0
+2027,17001,3868,Nova High School,AllStudents,All Students,247,0,0
+2044,17210,1759,Internet Academy,AllStudents,All Students,278,0,0
+2061,17210,1789,Federal Way Public Academy,AllStudents,All Students,118,63,63
+2076,17210,2417,Federal Way High School,AllStudents,All Students,1694,178,178
+2095,17210,3584,Thomas Jefferson High School,AllStudents,All Students,1744,116,116
+2115,17210,3766,Decatur High School,AllStudents,All Students,1424,54,54
+2134,17210,4570,Todd Beamer High School,AllStudents,All Students,1473,164,164
+2153,17216,3330,Enumclaw Sr High School,AllStudents,All Students,1388,0,0
+2172,17400,3029,Mercer Island High School,AllStudents,All Students,1578,138,138
+2190,17401,1539,CHOICE Academy,AllStudents,All Students,110,0,0
+2208,17401,2270,Puget Sound Skills Center,AllStudents,All Students,353,36,36
+2224,17401,2325,Highline High School,AllStudents,All Students,1142,51,51
+2243,17401,3099,Evergreen High School,AllStudents,All Students,1135,71,16
+2262,17401,3279,Mount Rainier High School,AllStudents,All Students,1862,25,25
+2282,17401,3483,Tyee High School,AllStudents,All Students,912,62,62
+2301,17402,2419,Vashon Island High School,AllStudents,All Students,535,21,0
+2318,17403,1784,H.O.M.E. Program,AllStudents,All Students,17,0,0
+2324,17403,2475,Renton Senior High School,AllStudents,All Students,1266,94,94
+2343,17403,3630,Hazen Senior High School,AllStudents,All Students,1864,240,191
+2362,17403,3741,Lindbergh Senior High School,AllStudents,All Students,1265,115,115
+2381,17404,2513,Skykomish High School,AllStudents,All Students,12,0,0
+2383,17405,2701,Bellevue High School,AllStudents,All Students,1576,184,160
+2401,17405,3282,Sammamish Senior High,AllStudents,All Students,1302,133,133
+2419,17405,3486,Newport Senior High School,AllStudents,All Students,1803,437,366
+2437,17405,3588,Interlake Senior High School,AllStudents,All Students,1700,178,178
+2455,17406,2848,Foster Senior High School,AllStudents,All Students,914,28,28
+2474,17407,1756,CLIP,AllStudents,All Students,60,0,0
+2486,17407,1854,PARADE,AllStudents,All Students,43,16,16
+2496,17407,3524,Cedarcrest High School,AllStudents,All Students,966,62,62
+2513,17408,2702,West Auburn Senior High School,AllStudents,All Students,236,39,39
+2532,17408,2795,Auburn Senior High School,AllStudents,All Students,1832,20,20
+2552,17408,4474,Auburn Riverside High School,AllStudents,All Students,1876,22,22
+2571,17409,2849,Tahoma Senior High School,AllStudents,All Students,2822,221,221
+2592,17410,1502,Two Rivers School,AllStudents,All Students,46,0,0
+2603,17410,2850,Mount Si High School,AllStudents,All Students,2116,224,204
+2621,17411,1624,Issaquah Special Services,AllStudents,All Students,26,0,0
+2628,17411,3385,Issaquah High School,AllStudents,All Students,2584,417,330
+2646,17411,3569,Echo Glen School,AllStudents,All Students,162,0,0
+2662,17411,3962,Liberty Sr High School,AllStudents,All Students,1555,272,222
+2680,17411,4495,Skyline High School,AllStudents,All Students,2248,399,301
+2698,17412,3343,Shorecrest High School,AllStudents,All Students,1550,76,76
+2716,17412,3921,Shorewood High School,AllStudents,All Students,1568,89,88
+2736,17414,1688,Emerson K-12,AllStudents,All Students,16,0,0
+2742,17414,1706,International Community School,AllStudents,All Students,189,33,33
+2754,17414,1804,Futures School,AllStudents,All Students,29,0,0
+2763,17414,2739,Lake Washington High School,AllStudents,All Students,1949,272,272
+2781,17414,3528,Redmond High School,AllStudents,All Students,2191,496,496
+2799,17414,3771,Juanita High School,AllStudents,All Students,1613,157,157
+2817,17414,3855,Emerson High School,AllStudents,All Students,47,0,0
+2828,17414,4439,Eastlake High School,AllStudents,All Students,2288,435,435
+2846,17415,1807,Regional Justice Center,AllStudents,All Students,25,0,0
+2853,17415,2797,Kent-Meridian High School,AllStudents,All Students,2209,58,30
+2872,17415,3640,Kentridge High School,AllStudents,All Students,2064,99,73
+2891,17415,4128,Kentwood High School,AllStudents,All Students,1889,163,112
+2910,17415,4492,Kentlake High School,AllStudents,All Students,1587,86,59
+2929,17417,1814,Northshore Networks,AllStudents,All Students,129,0,0
+2944,17417,1815,Northshore Special Services,AllStudents,All Students,21,0,0
+2951,17417,3106,Bothell High School,AllStudents,All Students,1755,192,192
+2969,17417,3492,Inglemoor HS,AllStudents,All Students,1636,115,115
+2988,17417,3811,Secondary Academy for Success,AllStudents,All Students,117,0,0
+3003,17417,4208,Woodinville HS,AllStudents,All Students,1736,326,234
+3022,18100,1737,Renaissance Alternative High School,AllStudents,All Students,138,0,0
+3037,18100,3109,Bremerton High School,AllStudents,All Students,1296,48,48
+3057,18100,4038,West Sound Technical Skills Center,AllStudents,All Students,13,1,1
+3063,18303,2395,Bainbridge High School,AllStudents,All Students,1352,169,169
+3081,18400,1677,District Programs,AllStudents,All Students,211,0,0
+3096,18400,1733,North Kitsap Online Academy & Parent Assisted Learning,AllStudents,All Students,47,6,6
+3105,18400,3236,North Kitsap High School,AllStudents,All Students,1010,63,63
+3124,18401,2615,Central Kitsap High School,AllStudents,All Students,1581,32,32
+3143,18401,4100,Olympic High School,AllStudents,All Students,1131,50,50
+3162,18401,4509,Klahowya Secondary,AllStudents,All Students,567,0,0
+3177,18402,1718,Explorer Academy,AllStudents,All Students,189,9,8
+3192,18402,2272,South Kitsap High School,AllStudents,All Students,2598,327,207
+3212,18801,3481,Kitsap Co Detention Ctr,AllStudents,All Students,43,0,0
+3221,18402,3899,Discovery,AllStudents,All Students,233,0,0
+3235,19028,3554,Easton School,AllStudents,All Students,25,5,5
+3242,19400,2514,Thorp Elem & Jr Sr High,AllStudents,All Students,49,0,0
+3253,19401,2996,Ellensburg High School,AllStudents,All Students,992,79,79
+3271,19403,2766,Kittitas High School,AllStudents,All Students,251,20,0
+3286,19403,3213,Parke Creek Treatment Ctr,AllStudents,All Students,32,0,0
+3295,19404,2329,Cle Elum Roslyn High School,AllStudents,All Students,248,5,5
+3310,20094,2605,Wishram High And Elementary Schl,AllStudents,All Students,25,0,0
+3316,20203,3392,Bickleton Elementary & High Schl,AllStudents,All Students,14,0,0
+3319,20400,2676,Trout Lake School,AllStudents,All Students,77,5,5
+3331,20401,3048,Glenwood Secondary,AllStudents,All Students,23,0,0
+3338,20402,3494,Klickitat Elem & High,AllStudents,All Students,21,0,0
+3345,20404,2856,Goldendale High School,AllStudents,All Students,336,0,0
+3361,20405,2330,Columbia High School,AllStudents,All Students,353,0,0
+3377,20406,3111,Lyle High School,AllStudents,All Students,81,0,0
+3391,21014,2273,Napavine Jr Sr High School,AllStudents,All Students,263,0,0
+3406,21206,3238,Mossyrock Jr./Sr. High School,AllStudents,All Students,182,0,0
+3421,21214,3112,Morton Junior-Senior High,AllStudents,All Students,137,0,0
+3436,21226,2441,Adna Middle/High School,AllStudents,All Students,234,0,0
+3450,21232,1829,Winolequa Learning Academy,AllStudents,All Students,18,0,0
+3456,21232,3597,Winlock Senior High,AllStudents,All Students,220,19,18
+3472,21237,2616,Toledo High School,AllStudents,All Students,253,0,0
+3487,21300,2331,Onalaska High School,AllStudents,All Students,273,0,0
+3502,21301,2858,Pe Ell School,AllStudents,All Students,85,0,0
+3515,21302,1559,Lewis County Juvenile Detention,AllStudents,All Students,49,0,0
+3529,21302,2027,Green Hill Academic School,AllStudents,All Students,182,0,0
+3543,21302,2799,W F West High School,AllStudents,All Students,1028,1,1
+3560,21303,2859,White Pass Jr. Sr. High School,AllStudents,All Students,139,0,0
+3574,21401,2166,Centralia High School,AllStudents,All Students,1032,113,113
+3592,22008,2186,Sprague High School,AllStudents,All Students,38,4,4
+3602,22009,2478,Reardan Middle-Senior High School,AllStudents,All Students,230,0,0
+3616,22073,2863,Creston Jr-Sr High School,AllStudents,All Students,35,6,0
+3626,22105,2443,Odessa High School,AllStudents,All Students,77,15,7
+3638,22200,3289,Wilbur Secondary School,AllStudents,All Students,105,20,0
+3653,22204,3113,Harrington High School,AllStudents,All Students,35,0,0
+3663,22207,3173,Davenport Senior High School,AllStudents,All Students,187,6,6
+3676,23309,1888,Mason County Detention Center,AllStudents,All Students,15,0,0
+3681,23309,3241,Shelton High School,AllStudents,All Students,1597,21,0
+3701,23309,4288,Choice Middle and High School,AllStudents,All Students,175,0,0
+3717,23403,1680,James A. Taylor High School,AllStudents,All Students,68,0,0
+3729,23403,1861,North Mason Homelink Program,AllStudents,All Students,48,0,0
+3740,23403,3175,North Mason Senior High School,AllStudents,All Students,708,1,1
+3757,24019,2031,Omak High School,AllStudents,All Students,475,0,0
+3774,24019,4279,Highlands High School,AllStudents,All Students,26,0,0
+3783,24105,2246,Okanogan High School,AllStudents,All Students,324,11,11
+3800,24105,3193,Okanogan Co Juvenile Detention,AllStudents,All Students,25,0,0
+3809,24111,2800,Brewster High School,AllStudents,All Students,299,27,0
+3824,24122,2397,Pateros High School,AllStudents,All Students,107,9,9
+3838,24350,1621,Methow Valley Independent Learning Center,AllStudents,All Students,43,0,0
+3849,24350,2146,Liberty Bell Jr Sr High,AllStudents,All Students,188,0,0
+3863,24404,2679,Tonasket High School,AllStudents,All Students,365,30,30
+3879,24410,2706,Oroville Middle-High School,AllStudents,All Students,191,26,26
+3894,25101,4220,Ilwaco High School,AllStudents,All Students,329,54,54
+3910,25116,2357,Raymond Jr Sr High School,AllStudents,All Students,194,0,0
+3926,25118,2214,South Bend High School,AllStudents,All Students,182,0,0
+3942,25155,3295,Naselle-Grays River Valley Jr Sr High Schools,AllStudents,All Students,106,3,3
+3956,25155,3599,Naselle Youth Camp School,AllStudents,All Students,155,0,0
+3970,25160,2542,Willapa Valley Middle-High,AllStudents,All Students,119,0,0
+3984,25200,2292,North River School,AllStudents,All Students,26,0,0
+3992,26056,2518,Newport High School,AllStudents,All Students,362,24,24
+4007,26059,2423,Cusick Jr Sr High School,AllStudents,All Students,81,0,0
+4022,27001,4131,Steilacoom High,AllStudents,All Students,1037,28,28
+4041,27003,1640,Puyallup Online Academy/POA,AllStudents,All Students,234,7,7
+4057,27003,2125,Puyallup High School,AllStudents,All Students,1862,70,70
+4076,27003,2575,Edgemont Jr High,AllStudents,All Students,120,29,29
+4089,27003,3052,Kalles Junior High,AllStudents,All Students,322,32,32
+4103,27003,3447,Aylen Jr High,AllStudents,All Students,242,29,29
+4117,27003,3645,Gov John Rogers High School,AllStudents,All Students,1782,65,65
+4136,27003,3750,Ballou Jr High,AllStudents,All Students,314,26,26
+4152,27003,3972,E B Walker High School,AllStudents,All Students,151,10,10
+4166,27003,4183,Ferrucci Jr High,AllStudents,All Students,235,32,32
+4180,27003,4443,Doris Stahl Junior High,AllStudents,All Students,261,23,23
+4195,27003,4540,Emerald Ridge High School,AllStudents,All Students,1486,96,96
+4214,27010,1585,Comm Based Trans Program,AllStudents,All Students,67,0,0
+4224,27010,1860,Tacoma School of the Arts,AllStudents,All Students,639,0,0
+4243,27010,2039,Remann Hall Juvenile Detention Center,AllStudents,All Students,55,0,0
+4256,27010,2084,Stadium High School,AllStudents,All Students,1595,141,141
+4276,27010,2215,Lincoln High School,AllStudents,All Students,1771,172,52
+4296,27010,3246,Dr. Dolores Silas High School,AllStudents,All Students,1244,26,26
+4315,27010,3398,Mount Tahoma High School,AllStudents,All Students,1460,85,26
+4335,27010,3880,Foss High School,AllStudents,All Students,662,62,12
+4354,27010,4109,Oakland High School,AllStudents,All Students,192,37,37
+4370,27010,4283,The School at Pearl Youth Residence,AllStudents,All Students,28,0,0
+4379,27083,3179,Curtis Junior High,AllStudents,All Students,467,0,0
+4394,27083,3600,Curtis Senior High,AllStudents,All Students,1443,58,58
+4412,27320,3247,Sumner High School,AllStudents,All Students,1779,117,34
+4431,27344,2942,Orting High School,AllStudents,All Students,721,20,20
+4449,27400,1825,Alfaretta House,AllStudents,All Students,23,0,0
+4455,27400,2041,Firwood,AllStudents,All Students,58,0,0
+4469,27400,2425,Clover Park High School,AllStudents,All Students,1483,102,102
+4490,27400,3456,Lakes High School,AllStudents,All Students,1322,172,172
+4510,27401,1516,Henderson Bay Alt High School,AllStudents,All Students,78,0,0
+4522,27401,2681,Peninsula High School,AllStudents,All Students,1562,64,64
+4540,27401,4081,Gig Harbor High,AllStudents,All Students,1554,56,56
+4558,27402,2876,Franklin Pierce High School,AllStudents,All Students,1263,29,29
+4577,27402,3648,Washington High School,AllStudents,All Students,1052,60,60
+4597,27402,4063,Gates Secondary School,AllStudents,All Students,151,0,0
+4613,27403,1510,Challenger High School,AllStudents,All Students,308,36,36
+4631,27403,2807,Bethel High School,AllStudents,All Students,1799,186,186
+4651,27403,4158,Spanaway Lake High School,AllStudents,All Students,1638,100,100
+4671,27404,2206,Eatonville High School,AllStudents,All Students,612,105,2
+4686,27416,4569,White River High School,AllStudents,All Students,1250,44,44
+4704,27417,2773,Fife High School,AllStudents,All Students,884,88,47
+4722,28137,1892,OASIS K-12,AllStudents,All Students,80,1,1
+4734,28137,2750,Orcas Island High School,AllStudents,All Students,133,6,6
+4749,28144,2632,Lopez Middle High School,AllStudents,All Students,62,0,0
+4762,28149,2879,Friday Harbor High School,AllStudents,All Students,250,56,23
+4778,29011,1605,Twin Cedars High School,AllStudents,All Students,21,0,0
+4786,29011,2810,Concrete High School,AllStudents,All Students,151,29,5
+4800,29100,2362,Burlington Edison High School,AllStudents,All Students,1167,389,156
+4817,29101,1537,State Street High School,AllStudents,All Students,238,0,0
+4835,29101,2150,Sedro Woolley Senior High School,AllStudents,All Students,1286,84,84
+4853,29103,2467,Anacortes High School,AllStudents,All Students,780,70,70
+4871,29311,2276,La Conner High School,AllStudents,All Students,247,0,0
+4888,29320,2295,Mount Vernon High School,AllStudents,All Students,2049,376,329
+4908,29801,3363,Skagit County Detention Center,AllStudents,All Students,13,0,0
+4913,29320,3829,Mount Vernon Special Ed,AllStudents,All Students,25,0,0
+4922,30303,3119,Stevenson High School,AllStudents,All Students,298,0,0
+4937,31002,2126,Everett High School,AllStudents,All Students,1573,30,30
+4958,31002,3407,Cascade High School,AllStudents,All Students,1876,51,51
+4977,31002,4137,Sequoia High School,AllStudents,All Students,202,0,0
+4994,31002,4438,Henry M. Jackson High School,AllStudents,All Students,2293,135,135
+5013,31004,2426,Lake Stevens Sr High School,AllStudents,All Students,2132,74,44
+5031,31006,1848,Special Services,AllStudents,All Students,33,0,0
+5038,31006,3688,Mariner High School,AllStudents,All Students,2551,265,186
+5058,31006,4247,ACES High School,AllStudents,All Students,175,0,0
+5074,31006,4433,Kamiak High School,AllStudents,All Students,2201,184,151
+5092,31015,1519,Edmonds eLearning Academy,AllStudents,All Students,252,11,11
+5109,31015,3123,Edmonds Woodway High School,AllStudents,All Students,1531,52,52
+5128,31015,3303,Mountlake Terrace High School,AllStudents,All Students,1487,110,110
+5148,31015,3464,Meadowdale High School,AllStudents,All Students,1550,58,58
+5167,31015,3755,Lynnwood High School,AllStudents,All Students,1468,48,48
+5187,31015,3854,Scriber Lake High School,AllStudents,All Students,249,0,0
+5206,31016,1714,Stillaguamish Valley Learning Center,AllStudents,All Students,128,0,0
+5220,31016,2523,Arlington High School,AllStudents,All Students,1678,218,218
+5239,31016,4287,Weston High School,AllStudents,All Students,183,0,0
+5254,31025,1657,Heritage School,AllStudents,All Students,118,0,0
+5270,31103,1777,Sky Valley Education Center,AllStudents,All Students,295,8,8
+5284,31103,1806,Leaders In Learning,AllStudents,All Students,57,0,0
+5296,31103,1883,Youth Re-Engagement,AllStudents,All Students,316,0,0
+5309,31103,4528,Monroe High School,AllStudents,All Students,1669,102,102
+5328,31201,2428,Snohomish High School,AllStudents,All Students,1655,24,24
+5346,31201,3981,High School Re Entry,AllStudents,All Students,13,0,0
+5350,31201,4265,AIM High School,AllStudents,All Students,193,2,2
+5365,31306,4204,Lakewood High School,AllStudents,All Students,832,62,0
+5385,31311,4274,Sultan Senior High School,AllStudents,All Students,587,61,61
+5404,31330,3188,Darrington High School,AllStudents,All Students,126,9,0
+5418,31332,2580,Granite Falls High School,AllStudents,All Students,528,49,49
+5434,31401,1707,Lincoln Hill High School,AllStudents,All Students,214,0,0
+5449,31401,2581,Stanwood High School,AllStudents,All Students,1327,201,138
+5468,32081,1533,A-3 Multiagency Adolescent Prog,AllStudents,All Students,32,0,0
+5477,32081,1567,Pratt Academy,AllStudents,All Students,143,0,0
+5492,32081,1604,Alternative Tamarack School,AllStudents,All Students,14,0,0
+5497,32081,1698,SCCP Images,AllStudents,All Students,76,0,0
+5507,32081,1767,The Healing Lodge,AllStudents,All Students,26,0,0
+5516,32081,2106,North Central High School,AllStudents,All Students,1520,72,72
+5536,32081,2172,Lewis & Clark High School,AllStudents,All Students,1958,201,201
+5556,32081,2479,Rogers High School,AllStudents,All Students,1651,106,106
+5576,32081,3008,Bryant Center,AllStudents,All Students,55,10,10
+5587,32081,3189,Shadle Park High School,AllStudents,All Students,1274,90,90
+5606,32081,3412,Ferris High School,AllStudents,All Students,1784,76,76
+5626,32325,4333,Lakeside High School,AllStudents,All Students,516,33,33
+5641,32326,2890,Medical Lake High School,AllStudents,All Students,537,35,21
+5657,32801,3352,Martin Hall Detention Ctr,AllStudents,All Students,88,0,0
+5670,32354,1858,Mead Education Partnership Prog,AllStudents,All Students,213,0,0
+5685,32354,2402,Mead Senior High School,AllStudents,All Students,1852,77,70
+5704,32354,4491,Mt Spokane High School,AllStudents,All Students,1691,68,58
+5723,32356,3065,Central Valley High School,AllStudents,All Students,2415,79,79
+5743,32356,3415,University High School,AllStudents,All Students,1738,109,109
+5763,32356,3918,Mica Peak High School,AllStudents,All Students,160,0,0
+5777,32358,3192,Freeman High School,AllStudents,All Students,323,52,52
+5791,32360,1769,Three Springs High School,AllStudents,All Students,83,14,14
+5804,32360,3610,Cheney High School,AllStudents,All Students,1498,131,131
+5824,32361,3360,East Valley High School,AllStudents,All Students,937,28,28
+5844,32362,3416,Liberty High School,AllStudents,All Students,206,0,0
+5858,32363,1628,Dishman Hills High School,AllStudents,All Students,322,18,18
+5873,32363,3195,West Valley High School,AllStudents,All Students,916,40,33
+5892,32414,1852,Deer Park Home Link Program,AllStudents,All Students,145,0,0
+5905,32414,4123,Deer Park High School,AllStudents,All Students,733,6,0
+5921,32416,4228,Riverside High School,AllStudents,All Students,468,3,3
+5936,33036,1763,Quartzite Learning,AllStudents,All Students,91,1,1
+5949,33036,2404,Jenkins Junior/Senior High,AllStudents,All Students,200,0,0
+5963,33049,2550,Wellpinit High School,AllStudents,All Students,100,0,0
+5978,33115,1594,Panorama School,AllStudents,All Students,45,0,0
+5988,33115,3310,Colville Senior High School,AllStudents,All Students,523,47,47
+6003,33206,3508,Columbia High And Elementary,AllStudents,All Students,50,0,0
+6016,33207,3311,Mary Walker High School,AllStudents,All Students,156,0,0
+6032,33211,2958,Northport High School,AllStudents,All Students,54,0,0
+6044,33212,4206,Kettle Falls High School,AllStudents,All Students,278,63,13
+6059,34002,1627,Yelm Extension School,AllStudents,All Students,123,0,0
+6070,34002,2633,Yelm High School 12,AllStudents,All Students,1686,156,136
+6090,34003,3010,North Thurston High School,AllStudents,All Students,1507,41,41
+6110,34003,3710,Timberline High School,AllStudents,All Students,1495,136,52
+6129,34003,4427,River Ridge High School,AllStudents,All Students,1556,68,30
+6149,34033,1713,Cascadia High School,AllStudents,All Students,130,0,0
+6163,34033,3362,Tumwater High School,AllStudents,All Students,1162,91,91
+6182,34033,3925,Thurs Co Juv Det/Tumwater West E,AllStudents,All Students,84,0,0
+6197,34033,4225,New Market Skills Center,AllStudents,All Students,349,29,29
+6211,34033,4500,A G West Black Hills High School,AllStudents,All Students,867,60,60
+6228,34111,1768,Avanti High School,AllStudents,All Students,169,0,0
+6243,34111,3132,Olympia High School,AllStudents,All Students,1901,101,101
+6261,34111,3960,Capital High School,AllStudents,All Students,1422,123,62
+6281,34307,2468,Rainier Senior High School,AllStudents,All Students,259,0,0
+6296,34401,1735,H.e.a.r.t. High School,AllStudents,All Students,41,0,0
+6305,34401,4326,Rochester High School,AllStudents,All Students,682,39,39
+6322,34402,3509,Tenino High School,AllStudents,All Students,427,155,0
+6337,35200,3467,Wahkiakum High School,AllStudents,All Students,214,9,9
+6352,36140,3468,Walla Walla High School,AllStudents,All Students,1605,51,46
+6370,36140,4071,Lincoln High School,AllStudents,All Students,174,0,0
+6384,36300,2160,Touchet Elem & High School,AllStudents,All Students,82,8,8
+6399,36400,4049,Columbia High School,AllStudents,All Students,202,0,0
+6414,36401,2386,Waitsburg High School,AllStudents,All Students,87,0,0
+6427,36402,3575,Prescott High School,AllStudents,All Students,76,0,0
+6441,37501,1647,Options High School,AllStudents,All Students,211,0,0
+6456,37501,1799,Visions (Seamar Youth Center),AllStudents,All Students,36,0,0
+6463,37501,2553,Bellingham High School,AllStudents,All Students,1234,83,48
+6483,29801,3420,Whatcom Co Detention Center,AllStudents,All Students,27,0,0
+6490,37501,3576,Sehome High School,AllStudents,All Students,1219,91,37
+6510,37501,4515,Squalicum High School,AllStudents,All Students,1333,79,57
+6529,37502,2488,Ferndale High School,AllStudents,All Students,1425,151,123
+6548,37503,3136,Blaine High School,AllStudents,All Students,684,0,0
+6567,37504,4201,Lynden High School,AllStudents,All Students,1047,135,135
+6585,37505,2554,Meridian High School,AllStudents,All Students,480,0,0
+6602,37506,2459,Nooksack Valley High School,AllStudents,All Students,494,3,3
+6619,37507,2343,Mount Baker Senior High,AllStudents,All Students,567,32,32
+6636,38126,2088,Lacrosse High School,AllStudents,All Students,24,0,0
+6644,38265,3418,Tekoa High School,AllStudents,All Students,77,0,0
+6658,38267,2499,Pullman High School,AllStudents,All Students,852,44,44
+6676,38300,3366,Colfax High School,AllStudents,All Students,207,17,17
+6690,38301,2634,Palouse High School,AllStudents,All Students,64,0,0
+6702,38306,2588,Colton School,AllStudents,All Students,45,9,9
+6713,38320,3204,Rosalia Elementary & Secondary School,AllStudents,All Students,57,0,0
+6725,38322,3068,St John/Endicott High,AllStudents,All Students,70,1,1
+6737,38324,2432,Oakesdale High School,AllStudents,All Students,52,0,0
+6748,39003,2591,Naches Valley High School,AllStudents,All Students,398,0,0
+6764,39007,2116,Davis High School,AllStudents,All Students,2579,237,237
+6783,39007,3206,Eisenhower High School,AllStudents,All Students,2053,173,173
+6802,39007,4092,Juvenile Detention Center,AllStudents,All Students,109,0,0
+6815,39007,4093,Stanton Academy,AllStudents,All Students,338,26,26
+6832,39090,2344,East Valley High School,AllStudents,All Students,981,17,17
+6849,39119,2388,Selah High School,AllStudents,All Students,1102,253,40
+6865,39119,4272,Selah Academy Online,AllStudents,All Students,60,2,2
+6878,39200,1776,Contract Learning Center,AllStudents,All Students,37,0,0
+6888,39200,2555,Grandview High School,AllStudents,All Students,1091,226,102
+6903,39201,2959,Sunnyside High School,AllStudents,All Students,2220,108,108
+6919,39202,1508,Computer Academy Toppenish High School,AllStudents,All Students,262,0,0
+6934,39202,2900,Toppenish High School,AllStudents,All Students,946,108,89
+6951,39203,4559,Highland High School,AllStudents,All Students,376,20,20
+6966,39204,3314,Granger High School,AllStudents,All Students,463,40,40
+6981,39205,2240,Zillah High School,AllStudents,All Students,455,55,24
+6997,39207,3141,Wapato High School,AllStudents,All Students,922,78,0
+7015,39207,4022,Pace Alternative High School,AllStudents,All Students,112,0,0
+7027,39208,3074,West Valley High School,AllStudents,All Students,1619,380,135
+7045,39209,2532,White Swan High School,AllStudents,All Students,265,37,37
+7061,31025,1910,Marysville SD Special,AllStudents,All Students,35,0,0
+7071,32416,1919,Independent Scholar,AllStudents,All Students,41,1,1
+7081,31201,1904,Parent Partnership,AllStudents,All Students,40,0,0
+7090,8458,1934,Loowit High School,AllStudents,All Students,10,0,0
+7093,18303,1935,Eagle Harbor High School,AllStudents,All Students,122,1,1
+7107,29100,1928,Burlington-Edison Alternative School,AllStudents,All Students,47,3,0
+7118,31025,1927,Legacy High School,AllStudents,All Students,328,109,85
+7135,17001,3496,Interagency Detention School,AllStudents,All Students,47,0,0
+7149,32801,3526,Spokane Juvenile Detention School,AllStudents,All Students,99,0,0
+7163,32801,3507,Structural Alt Confinement School,AllStudents,All Students,65,0,0
+7174,9075,1900,Bridgeport Aurora High School,AllStudents,All Students,46,0,0
+7184,31002,1907,Port Gardner,AllStudents,All Students,24,1,0
+7192,27417,4582,Columbia Junior High School,AllStudents,All Students,332,98,98
+7208,17402,1938,Student Link,AllStudents,All Students,52,1,1
+7219,4129,1940,Chelan School of Innovation,AllStudents,All Students,41,0,0
+7230,3017,1941,Mid-Columbia Parent Partnership,AllStudents,All Students,91,0,0
+7243,17210,1950,Employment Transition Program,AllStudents,All Students,61,0,0
+7252,17210,1951,Support School,AllStudents,All Students,26,0,0
+7259,10309,1898,Republic Parent Partner,AllStudents,All Students,33,0,0
+7267,38302,1962,Garfield at Palouse High School,AllStudents,All Students,26,0,0
+7275,28149,1963,Griffin Bay School,AllStudents,All Students,48,0,0
+7286,31015,1966,Edmonds Heights K-12,AllStudents,All Students,224,7,7
+7302,17405,3522,International School,AllStudents,All Students,321,99,99
+7318,17401,3553,Raisbeck Aviation High School,AllStudents,All Students,411,76,76
+7336,6037,3556,Vancouver Home Connection,AllStudents,All Students,30,0,0
+7345,17401,1972,New Start,AllStudents,All Students,212,0,0
+7363,24105,1980,Okanogan Alternative High School,AllStudents,All Students,30,0,0
+7371,37504,1983,Lynden Academy,AllStudents,All Students,120,0,0
+7385,17903,1986,Muckleshoot Tribal School,AllStudents,All Students,161,0,0
+7399,19404,1987,Swiftwater Alternative High School,AllStudents,All Students,31,0,0
+7409,29320,1992,Skagit Academy,AllStudents,All Students,93,19,19
+7422,32356,5003,School to Life,AllStudents,All Students,34,0,0
+7431,31401,5004,Saratoga School,AllStudents,All Students,19,0,0
+7438,34033,5014,New Market High School,AllStudents,All Students,71,0,0
+7449,37503,5021,Blaine Home Connections,AllStudents,All Students,15,1,1
+7453,27320,4585,Bonney Lake High School,AllStudents,All Students,1537,90,62
+7473,27400,5027, General William H. Harrison Preparatory School,AllStudents,All Students,321,0,0
+7491,17401,5028,Big Picture School,AllStudents,All Students,120,0,0
+7508,27403,5033,Graham Kapowsin High School,AllStudents,All Students,1936,116,116
+7528,17408,5037,Auburn Mountainview High School,AllStudents,All Students,1759,71,71
+7547,32326,5042,Medical Lake Endeavors,AllStudents,All Students,34,0,0
+7557,17001,5046,Private School Services,AllStudents,All Students,45,0,0
+7569,27931,5950,Bates Technical High School,AllStudents,All Students,516,0,0
+7584,17403,5070,Renton Academy,AllStudents,All Students,12,0,0
+7589,5402,5071,Insight School of Washington,AllStudents,All Students,2898,14,14
+7609,34111,5078,Olympia Regional Learning Academy,AllStudents,All Students,120,0,0
+7623,20405,5077,White Salmon Academy,AllStudents,All Students,26,0,0
+7632,18400,5085,Kingston High School,AllStudents,All Students,632,0,0
+7650,19401,5097,K-12 Ellensburg Learning Center,AllStudents,All Students,102,0,0
+7664,17415,5098,Kent Phoenix Academy,AllStudents,All Students,231,0,0
+7682,31004,5099,Cavelero Mid High School,AllStudents,All Students,741,160,30
+7697,6117,5104,Hayes Freedom High School,AllStudents,All Students,177,0,0
+7711,17937,5953,Lake Washington Technical Academy,AllStudents,All Students,340,0,0
+7723,3017,5106,Phoenix High School,AllStudents,All Students,59,0,0
+7736,17210,5107,Federal Way Running Start Home School,AllStudents,All Students,10,0,0
+7739,6114,5111,Union High School,AllStudents,All Students,2124,153,151
+7758,31311,5114,Sky Valley Options,AllStudents,All Students,38,1,1
+7768,26056,5118,Pend Oreille River School,AllStudents,All Students,57,0,0
+7777,31201,5128,Glacier Peak High School,AllStudents,All Students,1741,125,125
+7795,27003,5142,Glacier View Junior High,AllStudents,All Students,326,24,24
+7810,6037,5149,Vancouver Virtual Learning Academy,AllStudents,All Students,436,1,0
+7828,24105,5151,Okanogan Outreach Alternative School,AllStudents,All Students,121,0,0
+7842,39007,5153,Yakima Online,AllStudents,All Students,247,0,0
+7857,31103,5154,Shoreline-Monroe High School,AllStudents,All Students,332,0,0
+7870,17414,5958,Washington Network for Innovative Careers Skill Center,AllStudents,All Students,459,156,143
+7884,17210,5163,Career Academy at Truman High School,AllStudents,All Students,124,0,0
+7900,11001,5164,Chiawana Senior High School,AllStudents,All Students,3250,80,61
+7920,3400,5165,Three Rivers Home Link,AllStudents,All Students,102,0,0
+7932,29320,5960,Northwest Career & Technical Academy/A WA Skills Center,AllStudents,All Students,297,19,19
+7944,27010,5169,Science and Math Institute,AllStudents,All Students,620,125,59
+7961,31332,5171,Crossroads High School,AllStudents,All Students,183,0,0
+7975,27403,5961,Pierce County Skills Center,AllStudents,All Students,39,3,3
+7984,17401,5172,Puget Sound High School,AllStudents,All Students,77,0,0
+7997,29103,5176,Cap Sante High School,AllStudents,All Students,82,1,1
+8008,33212,5180,Columbia Virtual Academy - Kettle Falls,AllStudents,All Students,402,0,0
+8024,21237,5190,Cowlitz Prairie Academy,AllStudents,All Students,72,0,0
+8037,14028,5191,Hoquiam Homelink School,AllStudents,All Students,100,0,0
+8051,27010,5192,Special Services,AllStudents,All Students,17,0,0
+8056,8458,5194,Kelso Virtual Academy,AllStudents,All Students,312,11,11
+8071,24019,5197,Washington Virtual Academy Omak High School,AllStudents,All Students,1943,550,550
+8091,14005,5208,Twin Harbors A Branch of New Market Skills Center,AllStudents,All Students,15,0,0
+8097,31025,5213,Marysville Pilchuck High School,AllStudents,All Students,1218,112,0
+8117,33070,5223,Paideia High School,AllStudents,All Students,77,0,0
+8130,39007,5224,Yakima Satellite Alternative Programs,AllStudents,All Students,31,0,0
+8142,26070,5226,Selkirk High School,AllStudents,All Students,79,0,0
+8155,17405,5240,Bellevue Big Picture School,AllStudents,All Students,151,0,0
+8171,17407,5244,Choice,AllStudents,All Students,17,0,0
+8178,32081,5250,On Track Academy,AllStudents,All Students,476,4,4
+8194,17210,5255,Gateway to College,AllStudents,All Students,23,0,0
+8201,39202,5262,Northwest Allprep,AllStudents,All Students,836,13,13
+8221,17414,5265,Nikola Tesla STEM High School,AllStudents,All Students,611,390,390
+8237,6037,5271,Vancouver iTech Preparatory,AllStudents,All Students,272,23,23
+8253,24111,5272,Brewster Alternative School,AllStudents,All Students,30,0,0
+8263,13161,5273,Columbia Basin Technical Skills Center,AllStudents,All Students,117,7,7
+8274,17415,5275,Individualized Graduation & Degree Program,AllStudents,All Students,486,0,0
+8291,32356,5278,Spokane Valley Tech Skills Center,AllStudents,All Students,11,0,0
+8296,17405,5281,Central Educational Services,AllStudents,All Students,74,0,0
+8307,17403,5282,Talley High School,AllStudents,All Students,323,38,25
+8325,39120,5289,Mabton Jr. Sr. High,AllStudents,All Students,252,90,52
+8339,6801,5290,Clark County Juvenile Detention School,AllStudents,All Students,59,0,0
+8349,17410,5296,Snoqualmie Parent Partnership Program,AllStudents,All Students,17,12,12
+8356,27400,5297,Transition Day Students,AllStudents,All Students,15,0,0
+8360,32081,5301,The Community School,AllStudents,All Students,172,13,0
+8375,34979,5302,Washington Youth Academy,AllStudents,All Students,141,0,0
+8388,34801,5305,ESD 113 Consortium Reengagement Program,AllStudents,All Students,730,0,0
+8403,17937,5306,Open Doors at LWIT,AllStudents,All Students,576,0,0
+8417,27010,5307,Tacoma Open Doors,AllStudents,All Students,554,0,0
+8434,6114,5310,Henrietta Lacks Health and Bioscience High School,AllStudents,All Students,566,0,0
+8452,8122,5312,Discovery High School,AllStudents,All Students,138,0,0
+8466,4246,5316,Open Doors Re-Engagement,AllStudents,All Students,152,0,0
+8479,18902,5319,Chief Kitsap Academy,AllStudents,All Students,54,0,0
+8492,27003,5321,Puyallup Open Doors/POD,AllStudents,All Students,158,0,0
+8506,13161,5323,MLSD Open Doors Re-Engagement Program,AllStudents,All Students,259,0,0
+8519,17405,5325,Career Education Options Reengagement Program,AllStudents,All Students,83,0,0
+8532,6101,5326,La Center Home School Academy,AllStudents,All Students,87,0,0
+8544,32356,5328,CVSD Open Doors Programs,AllStudents,All Students,173,0,0
+8556,31311,5329,Open Doors Youth Reengagement,AllStudents,All Students,26,0,0
+8564,31002,5330,Everett Reengagement Academy,AllStudents,All Students,261,4,4
+8581,17417,5331,Northshore Online Reengagement Program,AllStudents,All Students,25,0,0
+8589,27404,5332,ESD New Beginnings,AllStudents,All Students,58,0,0
+8600,17403,5335,Open Door Youth Reengagement,AllStudents,All Students,136,0,0
+8615,13301,5336,Lake Roosevelt Alternative School,AllStudents,All Students,47,0,0
+8626,36140,5337,SE AREA TECHNICAL SKILLS CENTER,AllStudents,All Students,10,0,0
+8629,27416,5338,White River Reengagement Program,AllStudents,All Students,51,0,0
+8640,32907,5339,PRIDE Prep School,AllStudents,All Students,393,30,30
+8657,37501,5340,Bellingham Re-Engagement Program,AllStudents,All Students,168,0,0
+8669,6037,5342,Open Doors,AllStudents,All Students,428,1,1
+8685,15201,5343,iGrad Academy,AllStudents,All Students,28,0,0
+8694,32081,5344,Open Doors,AllStudents,All Students,97,0,0
+8706,17210,5348,Open Doors Youth Reengagement (1418),AllStudents,All Students,266,0,0
+8722,31332,5349,Granite Falls Open Doors,AllStudents,All Students,94,0,0
+8734,39201,5352,SHS Graduation Alliance,AllStudents,All Students,27,0,0
+8741,39007,5355,Yakima Open Doors,AllStudents,All Students,289,0,0
+8755,31015,5358,Edmonds Career Access Program,AllStudents,All Students,343,0,0
+8771,21401,5359,Futurus High School,AllStudents,All Students,79,0,0
+8783,6119,5360,Open Doors Battle Ground,AllStudents,All Students,46,0,0
+8792,36250,5362,College Place High School,AllStudents,All Students,533,126,126
+8808,1147,5367,Desert Oasis High School,AllStudents,All Students,138,0,0
+8821,21302,5369,Lewis County Alternative School,AllStudents,All Students,53,0,0
+8833,17401,5370,Highline Open Doors 1418,AllStudents,All Students,450,0,0
+8852,17401,5371,Highline Home School Center,AllStudents,All Students,10,0,0
+8855,27403,5372,Acceleration Academy,AllStudents,All Students,391,0,0
+8872,37903,5373,Lummi Nation School,AllStudents,All Students,162,20,20
+8886,17410,5374,SNOQUALMIE VALLEY SCHOOL DISTRICT OPEN DOORS,AllStudents,All Students,64,0,0
+8896,17902,5375,Summit Public School: Sierra,AllStudents,All Students,386,0,0
+8914,27905,5376,Summit Public School: Olympus,AllStudents,All Students,205,0,0
+8931,18100,5395,Career & Academic Re-engagement Center,AllStudents,All Students,75,0,0
+8943,32360,5396,Cheney Open Doors,AllStudents,All Students,23,0,0
+8953,6801,5398,ESD 112 Open Doors Reengagement,AllStudents,All Students,294,0,0
+8965,39200,5399,Step to College Open Doors High School,AllStudents,All Students,28,0,0
+8973,8122,5400,Discovery High School-Achieve,AllStudents,All Students,88,0,0
+8985,32354,5401,Mead Open Doors,AllStudents,All Students,24,0,0
+8992,31025,5402,Marysville NWESD 189 Youth Engagement,AllStudents,All Students,168,0,0
+9006,11801,5403,Ugrad – ESD123 Re-Engagement Program,AllStudents,All Students,255,0,0
+9016,17001,5405,Interagency Open Doors,AllStudents,All Students,216,0,0
+9032,17001,5406,Bridges Transition,AllStudents,All Students,166,0,0
+9046,27001,5410,Futures Program,AllStudents,All Students,12,0,0
+9049,27400,5411,CPSD Open Doors Program,AllStudents,All Students,305,0,0
+9065,15204,5412,Open Den,AllStudents,All Students,80,0,0
+9075,2250,5413,Educational Opportunity Center Reengagement,AllStudents,All Students,23,0,0
+9083,21206,5415,Mossyrock Academy,AllStudents,All Students,13,0,0
+9088,14068,5416,East Grays Harbor Open Doors,AllStudents,All Students,44,0,0
+9097,5903,5430,Quileute Tribal School,AllStudents,All Students,42,13,0
+9108,32361,5432,EV Online,AllStudents,All Students,221,4,4
+9123,32361,5433,EV Parent Partnership,AllStudents,All Students,87,1,1
+9135,32801,5434,NEWESD 101 Open Doors,AllStudents,All Students,255,0,0
+9148,6114,5435,Open Doors Evergreen,AllStudents,All Students,231,11,11
+9161,17411,5437,Gibson Ek High School,AllStudents,All Students,169,0,0
+9177,17415,5440,The Outreach Program,AllStudents,All Students,81,0,0
+9191,23311,5444,Mary M. Knight School,AllStudents,All Students,58,0,0
+9204,33207,5446,Mary Walker Alternative Learning Experience,AllStudents,All Students,55,0,0
+9215,37505,5448,Meridian Impact Re-Engagement,AllStudents,All Students,19,0,0
+9222,29320,5449,Mount Vernon Open Doors,AllStudents,All Students,37,0,0
+9232,27010,5458,Industrial Design Engineering and Arts,AllStudents,All Students,393,89,65
+9251,36140,5460,Walla Walla Open Doors,AllStudents,All Students,224,0,0
+9264,33049,5461,Wellpinit Open Doors High School,AllStudents,All Students,75,0,0
+9277,37502,5464,FERNDALE RE-ENGAGEMENT,AllStudents,All Students,55,0,0
+9288,37503,5465,Blaine Re-Engagement,AllStudents,All Students,20,0,0
+9296,17910,5468,Rainier Valley Leadership Academy,AllStudents,All Students,27,0,0
+9305,17905,5469,Summit Public School: Atlas,AllStudents,All Students,223,0,0
+9322,18401,5472,Barker Creek Community School,AllStudents,All Students,727,46,46
+9340,17210,5473,Technology Access Foundation Academy at Saghalie,AllStudents,All Students,153,0,0
+9358,31025,5478,Marysville Getchell High School,AllStudents,All Students,1539,157,55
+9377,30031,5480,Pacific Crest Innovation Academy,AllStudents,All Students,15,5,5
+9382,17417,5481,North Creek High School,AllStudents,All Students,1788,310,310
+9401,31016,5495,Arlington Open Doors,AllStudents,All Students,71,0,0
+9411,13165,5497,Sage Hills Open Doors Youth Re-Engagement Program,AllStudents,All Students,46,0,0
+9421,31006,5498,Mukilteo Reengagement Academy Open Doors,AllStudents,All Students,76,0,0
+9432,11051,5499,CRCC-Open Doors,AllStudents,All Students,14,0,0
+9437,29801,5501,Open Doors - Youth Reengagement Program,AllStudents,All Students,16,0,0
+9443,6119,5502,Daybreak Youth Services,AllStudents,All Students,98,0,0
+9455,39208,5506,WEST VALLEY VIRTUAL ACADEMY 9-12,AllStudents,All Students,286,10,10
+9469,14005,5514,Grays Harbor Academy,AllStudents,All Students,27,0,0
+9475,17408,5522,Auburn Opportunity Project,AllStudents,All Students,135,0,0
+9488,33036,5523,Chewelah Open Doors Reengagement Program,AllStudents,All Students,28,0,0
+9497,29100,5525,Open Doors,AllStudents,All Students,16,0,0
+9502,27001,5527,Steilacoom PRIDE Academy,AllStudents,All Students,32,0,0
+9511,5402,5529,Insight School of WA Open Doors Program,AllStudents,All Students,43,0,0
+9521,6117,5532,Camas School District Open Doors,AllStudents,All Students,15,0,0
+9526,6117,5533,Discovery High School,AllStudents,All Students,181,44,25
+9539,17406,5536,Tukwila Online Learning,AllStudents,All Students,17,0,0
+9544,3116,5537,Prosser Opportunity Academy,AllStudents,All Students,26,0,0
+9551,39208,5540,West Valley Open Doors,AllStudents,All Students,28,0,0
+9560,32356,5542,Stem Academy at SVT,AllStudents,All Students,173,19,19
+9572,8402,5545,Kalama High School,AllStudents,All Students,348,80,80
+9587,18400,5546,Choice Academy,AllStudents,All Students,32,0,0
+9596,8458,5547,Kelso Goal Oriented Learning Design,AllStudents,All Students,67,0,0
+9607,23309,5548,Shelton Open Doors,AllStudents,All Students,25,0,0
+9615,27901,5549,Chief Leschi Schools,AllStudents,All Students,186,0,0
+9629,39901,5550,Yakama Nation Tribal School,AllStudents,All Students,108,0,0
+9640,37506,5554,Nooksack Reengagement,AllStudents,All Students,13,0,0
+9644,39119,5560,Selah Academy Auxiliary,AllStudents,All Students,115,0,0
+9657,39119,5561,Selah Academy BPL,AllStudents,All Students,17,0,0
+9662,18402,5562,Pacific Northwest Connections Academy,AllStudents,All Students,1080,0,0
+9680,17409,5563,Tahoma Open Doors,AllStudents,All Students,54,0,0
+9690,17001,5566,Lincoln High School,AllStudents,All Students,996,41,41
+9708,36250,5575,College Place Open Doors Program,AllStudents,All Students,27,0,0
+9719,39801,5578,ESD 105 Open Doors,AllStudents,All Students,123,0,0
+9730,37502,5579,Ferndale Virtual Academy,AllStudents,All Students,42,0,0
+9739,27417,5582,Fife Open Doors,AllStudents,All Students,47,0,0
+9749,14400,5584,Oakville Homelink Alternative School,AllStudents,All Students,25,0,0
+9755,24404,5586,Tonasket Choice High School,AllStudents,All Students,26,0,0
+9762,24404,5587,Tonasket Outreach School,AllStudents,All Students,38,0,0
+9772,29103,5588,Open Doors,AllStudents,All Students,10,0,0
+9775,17941,5590,Ella Baker High School (Open Doors),AllStudents,All Students,73,0,0
+9786,17417,5606,Innovation Lab High School,AllStudents,All Students,143,18,18
+9800,32903,5609,Lumen High School,AllStudents,All Students,57,0,0
+9812,5121,5611,SEAVIEW ACADEMY,AllStudents,All Students,249,2,2
+9827,5323,5613,Dungeness Virtual School,AllStudents,All Students,24,1,1
+9835,8122,5614,Longview Virtual Academy,AllStudents,All Students,72,0,0
+9848,6112,5615,Washougal Learning Academy,AllStudents,All Students,53,0,0
+9860,7002,5617,Dayton School District Alternative Program,AllStudents,All Students,11,0,0
+9863,20404,5618,Goldendale School District #404,AllStudents,All Students,741,0,0
+9881,23309,5621,Cedar High School,AllStudents,All Students,76,0,0
+9896,29320,5625,Aspire Academy,AllStudents,All Students,72,0,0
+9909,15201,5626,Oak Harbor Virtual Academy,AllStudents,All Students,54,0,0
+9921,34033,5629,Tumwater Virtual Academy,AllStudents,All Students,87,0,0
+9934,27401,5632,Peninsula Alternative Programs,AllStudents,All Students,91,1,1
+9945,27403,5633,Bethel Virtual Academy,AllStudents,All Students,405,0,0
+9964,1147,5634,Open Door Re-Engagement,AllStudents,All Students,30,0,0
+9972,36140,5636,Walla Walla Online,AllStudents,All Students,180,0,0
+9987,4246,5637,Wenatchee Internet Academy,AllStudents,All Students,142,0,0
+10001,31311,5642,Sultan Virtual Academy,AllStudents,All Students,81,0,0
+10015,32363,5645,Spokane Valley High School,AllStudents,All Students,292,0,0
+10031,25101,5647,Ocean Beach Options Academy,AllStudents,All Students,71,0,0
+10043,13144,5648,Quincy Innovation Academy,AllStudents,All Students,46,0,0
+10054,13144,5650,Quincy Innovation Academy Big Picture,AllStudents,All Students,21,0,0
+10060,23403,5651,North Mason Online    ,AllStudents,All Students,178,0,0
+10076,11051,5653,North Franklin Virtual Academy,AllStudents,All Students,41,0,0
+10087,34003,5654,Envision Career Academy,AllStudents,All Students,185,0,0
+10102,27344,5657,Orting Secondary Online Academy,AllStudents,All Students,96,0,0

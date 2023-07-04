@@ -1,0 +1,22 @@
+schoolYear,Program,StudentGroup, Total Students Grade 9-12 , Computer Science Enrollments using CIP or State Course Code  ,Percentage of Computer Science Enrollments using CIP or State Course Code , Computer Science Enrollments using State Course Code only ,Percentage of Computer Science Enrollments using State Course Code only
+2021,AllStudents,All Students," 356,409 "," 27,233 ",7.6%," 22,576 ",6.3%
+2021,ELL,English Language Learners," 31,384 "," 1,978 ",6.3%," 1,561 ",5.0%
+2021,ELL,Non-English Language Learners," 325,025 "," 25,255 ",7.8%," 21,015 ",6.5%
+2021,FederalEthRaceRollupName,American Indian/ Alaskan Native," 4,903 ", 260 ,5.3%, 181 ,3.7%
+2021,FederalEthRaceRollupName,Asian," 28,778 "," 4,295 ",14.9%," 3,970 ",13.8%
+2021,FederalEthRaceRollupName,Black/ African American," 16,319 ", 977 ,6.0%, 838 ,5.1%
+2021,FederalEthRaceRollupName,Hispanic/ Latino of any race(s)," 85,272 "," 5,803 ",6.8%," 4,445 ",5.2%
+2021,FederalEthRaceRollupName,Native Hawaiian/ Other Pacific Islander," 4,445 ", 225 ,5.1%, 191 ,4.3%
+2021,FederalEthRaceRollupName,Two or More Races," 29,046 "," 2,090 ",7.2%," 1,771 ",6.1%
+2021,FederalEthRaceRollupName,White," 187,638 "," 13,583 ",7.2%," 11,180 ",6.0%
+2021,FRL,Low-Income," 153,923 "," 10,222 ",6.6%," 7,983 ",5.2%
+2021,FRL,Non-Low Income," 202,486 "," 17,011 ",8.4%," 14,593 ",7.2%
+2021,GenderType,Female," 171,471 "," 7,614 ",4.4%," 5,943 ",3.5%
+2021,GenderType,Gender X," 1,782 ", 86 ,4.8%, 68 ,3.8%
+2021,GenderType,Male," 183,156 "," 19,533 ",10.7%," 16,565 ",9.0%
+2021,GradeLevel,10," 85,962 "," 6,549 ",7.6%," 5,432 ",6.3%
+2021,GradeLevel,11," 88,449 "," 5,662 ",6.4%," 4,825 ",5.5%
+2021,GradeLevel,12," 93,988 "," 6,100 ",6.5%," 5,178 ",5.5%
+2021,GradeLevel,9," 88,010 "," 8,922 ",10.1%," 7,141 ",8.1%
+2021,SWD,Students with Disabilities," 45,875 "," 2,643 ",5.8%," 2,105 ",4.6%
+2021,SWD,Students without Disabilities," 310,534 "," 24,590 ",7.9%," 20,471 ",6.6%
