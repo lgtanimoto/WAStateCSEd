@@ -1,9 +1,6 @@
 # WAStateCSEd
- WAState CS Ed Analytics
 
-
- WA State CSEd Metrics
-# 2020-21
+# 2020-21 CSEd Metrics
 
 CS Enrollments in Washington
 
@@ -13,7 +10,7 @@ CS Enrollments in Washington
 
 **Main Source Data File**: Computer Science Course Enrollment and Educator Data 2020-21 SY.xlsx taken from <https://www.k12.wa.us/sites/default/files/public/secondaryeducation/Operations/Computer%20Science%20Course%20Enrollment%20and%20Educator%20Data%202020-21%20SY.xlsx> taken from [Computer Science | OSPI (www.k12.wa.us)](https://www.k12.wa.us/student-success/resources-subject-area/computer-science) on 5/20/2023
 
-For this dashboard, the file SchoolCSEEnrollmentOnly\_2021.csv was created by running the SchoolEnrollmentData() function in the Python file CSVCleanup2021.py.  This function took the ìSchoolî sheet from the main Excel file, kept only the ìAllStudentî records, and eliminated unnecessary columns.
+For this dashboard, the file SchoolCSEEnrollmentOnly\_2021.csv was created by running the SchoolEnrollmentData() function in the Python file CSVCleanup2021.py.  This function took the ‚ÄúSchool‚Äù sheet from the main Excel file, kept only the ‚ÄúAllStudent‚Äù records, and eliminated unnecessary columns.
 
 **Location Data for Schools and other entities**
 
@@ -35,7 +32,7 @@ State Legislative and Congressional Districts: After getting state legislature a
 
 **Main Source Data File**: Computer Science Course Enrollment and Educator Data 2020-21 SY.xlsx taken from <https://www.k12.wa.us/sites/default/files/public/secondaryeducation/Operations/Computer%20Science%20Course%20Enrollment%20and%20Educator%20Data%202020-21%20SY.xlsx> taken from [Computer Science | OSPI (www.k12.wa.us)](https://www.k12.wa.us/student-success/resources-subject-area/computer-science) on 5/20/2023
 
-For this dashboard, the file 2021\_State.csv was created by taking the ìStateî sheet from the source Excel file, deleting the blank row, and renaming some columns.
+For this dashboard, the file 2021\_State.csv was created by taking the ‚ÄúState‚Äù sheet from the source Excel file, deleting the blank row, and renaming some columns.
 
 ## Washington State CS Education Teachers 2020-21
 
@@ -43,6 +40,45 @@ For this dashboard, the file 2021\_State.csv was created by taking the ìStateî s
 
 **Tableau Source File:** Washington State CS Education Teachers 2020-21.twb
 
-**Source Data File:** 2021\_Comp Sci Educator Info.csv ñ taken by exporting the ìComp Sci Educator Infoî sheet from the main Excel file in CSV format.  
+# 2020-21 CS within CTE Dashboard
+
+**Subfolder: ** CTE21
+
+**Tableau Locations:** 
+<https://public.tableau.com/views/DemographicsbyCTEProgramArea-Washington2021/DemographicsbyProgramArea?:language=en-US&:display_count=n&:origin=viz_share_link>
+<https://public.tableau.com/views/CTEProgramAreabyDistrict-Washington2021/CTEProgramsbyDistrict?:language=en-US&:display_count=n&:origin=viz_share_link>
+<https://public.tableau.com/views/CTEEnrollmentsbyCIPCode-Washington2021/EnrollmentsbyCIPCode?:language=en-US&:display_count=n&:origin=viz_share_link>
+<https://public.tableau.com/views/EnrollmentsbyCTEProgramArea-Washington2021/EnrollmentsbyProgramArea?:language=en-US&:display_count=n&:origin=viz_share_link>
+
+**Tableau Source File:** cte121.twb  
+
+**Source Data Files:** 
+Enrollment_in_CTE_Courses_by_CIP_Code_clean.csv ‚Äì Light reformatting from <https://data.wa.gov/Education/Enrollment-in-CTE-Courses-by-CIP-Code/xz2f-5ydn>
+CIP_Code_Scraped with mapping2 - Scraped from <https://www.k12.wa.us/student-success/career-technical-education-cte/cte-resources-essentials/cip-codes> with a certain CIP Codes remapped to CS
+
+# 2021-22 CSEd Metrics
+
+**Subfolder:** 2022
+
+**Tableau Locations:**
+<https://public.tableau.com/views/CSEnrollmentsinWashington2021-22/CSEnrollmentsinWashington2021-22?:language=en-US&:display_count=n&:origin=viz_share_link>
+<https://public.tableau.com/views/WashingtonCSEdparticipationDemographics2021-22/State-wide?:language=en-US&:display_count=n&:origin=viz_share_link>
+<https://public.tableau.com/views/WashingtonStateCSEducationTeachers2021-22/WashingtonStateCSEducationTeachers2020-21Alpha?:language=en-US&:display_count=n&:origin=viz_share_link>
+
+**Tableau Source Files: ** WAStateSchools2022.twb, 2022WAStateSummary.twb, Washington State CS Education Teachers 2021-22.twb
+
+** Source Data Files: **
+ComputerScienceEducationDataSummaryReport21-22.xlsx  (originally from <https://docs.google.com/document/d/1f3RpcEsX3XNdq-xE9YB0b5IjcEXbKjWEPybXGYDkyhM/edit?usp=sharing>)
+2022_state_t.csv (generated from source xlsx using wastatemetrics22.py)
+2022_Comp Sci Educator Info.csv (generated from source xlsx using wastatemetrics22.py)
+SchoolCSEEnrollmentOnly_2022.csv (generated from source xlsx using wastatemetrics22.py)
+DistrictLocations_2022.csv (same as 2021 version)
+ESDLocations_2022.csv (same as 2021 version)
+WALegislativeLocations_2022.csv (same as 2021 version)
+CongressLocations_2022.csv (same as 2021 version)
+SchoolLocations_2022.csv (started with 2021 version, added 26 schools with geocodio generated location)
+
+
+
 
 
