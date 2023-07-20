@@ -1,0 +1,2916 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.23.0623.1714                               -->
+<workbook original-version='18.1' source-build='2022.3.7 (20223.23.0623.1714)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='WashingtonCSEdparticipationDemographics2021-22' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='2022_state_t' inline='true' name='federated.0drb1yb0kou10r1fsk15h0m9lr1y' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2022_state_t' name='textscan.1bn8ngk07p4ad318uvy3d03009hf'>
+            <connection class='textscan' directory='H:/NewUsers/everyday/Documents/My Tableau Repository/WAState/V0.2' filename='2022_state_t.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1bn8ngk07p4ad318uvy3d03009hf' name='2022_state_t.csv' table='[2022_state_t#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='SchoolYear' ordinal='1' />
+            <column datatype='string' name='Program' ordinal='2' />
+            <column datatype='string' name='StudentGroup' ordinal='3' />
+            <column datatype='integer' name='TotalStudents9-12' ordinal='4' />
+            <column datatype='integer' name='CSStudentsCIPorCourse' ordinal='5' />
+            <column datatype='real' name='PctCSStudentsCIPorCourse' ordinal='6' />
+            <column datatype='integer' name='CSStudentsCourseOnly' ordinal='7' />
+            <column datatype='real' name='PctCSStudentsCourseOnly' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1bn8ngk07p4ad318uvy3d03009hf' name='2022_state_t.csv' table='[2022_state_t#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='SchoolYear' ordinal='1' />
+            <column datatype='string' name='Program' ordinal='2' />
+            <column datatype='string' name='StudentGroup' ordinal='3' />
+            <column datatype='integer' name='TotalStudents9-12' ordinal='4' />
+            <column datatype='integer' name='CSStudentsCIPorCourse' ordinal='5' />
+            <column datatype='real' name='PctCSStudentsCIPorCourse' ordinal='6' />
+            <column datatype='integer' name='CSStudentsCourseOnly' ordinal='7' />
+            <column datatype='real' name='PctCSStudentsCourseOnly' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2022_state_t.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[2022_state_t.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SchoolYear</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SchoolYear]</local-name>
+            <parent-name>[2022_state_t.csv]</parent-name>
+            <remote-alias>SchoolYear</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Program</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Program]</local-name>
+            <parent-name>[2022_state_t.csv]</parent-name>
+            <remote-alias>Program</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StudentGroup</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[StudentGroup]</local-name>
+            <parent-name>[2022_state_t.csv]</parent-name>
+            <remote-alias>StudentGroup</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalStudents9-12</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TotalStudents9-12]</local-name>
+            <parent-name>[2022_state_t.csv]</parent-name>
+            <remote-alias>TotalStudents9-12</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CSStudentsCIPorCourse</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CSStudentsCIPorCourse]</local-name>
+            <parent-name>[2022_state_t.csv]</parent-name>
+            <remote-alias>CSStudentsCIPorCourse</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctCSStudentsCIPorCourse</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctCSStudentsCIPorCourse]</local-name>
+            <parent-name>[2022_state_t.csv]</parent-name>
+            <remote-alias>PctCSStudentsCIPorCourse</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CSStudentsCourseOnly</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CSStudentsCourseOnly]</local-name>
+            <parent-name>[2022_state_t.csv]</parent-name>
+            <remote-alias>CSStudentsCourseOnly</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctCSStudentsCourseOnly</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctCSStudentsCourseOnly]</local-name>
+            <parent-name>[2022_state_t.csv]</parent-name>
+            <remote-alias>PctCSStudentsCourseOnly</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:Calculation_1735293271637258240:qk]&quot;' value='Pct CIP Only' />
+          <alias key='&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:PctCSStudentsCourseOnly:qk]&quot;' value='Pct Course Only' />
+        </aliases>
+      </column>
+      <column caption='CS Students CI Por Course' datatype='integer' name='[CSStudentsCIPorCourse]' role='measure' type='quantitative' />
+      <column caption='CS Students Course Only' datatype='integer' name='[CSStudentsCourseOnly]' role='measure' type='quantitative' />
+      <column caption='PctCSStudentsCIPOnly' datatype='real' default-format='p0.0%' name='[Calculation_1735293271637258240]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([CSStudentsCIPorCourse] - [CSStudentsCourseOnly])/[TotalStudents9-12]' />
+      </column>
+      <column caption='CSE Percentage' datatype='real' default-format='p0.0%' name='[Calculation_3475090104570486784]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if [TotalStudents9-12] &gt; 0 then&#13;&#10;    [CSStudentsCIPorCourse]/ [TotalStudents9-12]&#13;&#10;ELSE&#13;&#10;    0.0&#13;&#10;END' />
+      </column>
+      <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+      <column caption='Pct CS Students CI Por Course' datatype='real' name='[PctCSStudentsCIPorCourse]' role='measure' type='quantitative' />
+      <column caption='Pct CS Students Course Only' datatype='real' default-format='p0.0%' name='[PctCSStudentsCourseOnly]' role='measure' type='quantitative' />
+      <column caption='Program1' datatype='string' name='[Program]' role='dimension' type='nominal' />
+      <column caption='School Year' datatype='integer' name='[SchoolYear]' role='dimension' type='quantitative' />
+      <column caption='Student Group' datatype='string' name='[StudentGroup]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;English Language Learners&quot;' value='ELL' />
+          <alias key='&quot;Non-English Language Learners&quot;' value='non-ELL' />
+        </aliases>
+      </column>
+      <column datatype='integer' name='[TotalStudents9-12]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='2022_state_t.csv' datatype='table' name='[__tableau_internal_object_id__].[2022_state_t.csv_2F907F29E8A143AC9378908763411681]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_1735293271637258240]' derivation='Avg' name='[avg:Calculation_1735293271637258240:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PctCSStudentsCourseOnly]' derivation='Avg' name='[avg:PctCSStudentsCourseOnly:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[StudentGroup]' derivation='None' name='[none:StudentGroup:nk]' pivot='key' type='nominal' />
+      <column-instance column='[CSStudentsCIPorCourse]' derivation='Sum' name='[sum:CSStudentsCIPorCourse:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[CSStudentsCourseOnly]' derivation='Sum' name='[sum:CSStudentsCourseOnly:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_3475090104570486784]' derivation='Sum' name='[sum:Calculation_3475090104570486784:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1]' derivation='Sum' name='[sum:F1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PctCSStudentsCIPorCourse]' derivation='Sum' name='[sum:PctCSStudentsCIPorCourse:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PctCSStudentsCourseOnly]' derivation='Sum' name='[sum:PctCSStudentsCourseOnly:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[sum:TotalStudents9-12:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='H:/NewUsers/everyday/Documents/My Tableau Repository/WAState/V0.2/2022_state_t.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='07/18/2023 12:35:28 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='2022_state_t' increment-value='%null%' refresh-type='create' rows-inserted='22' timestamp-start='2023-07-18 00:35:28.119' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>2022_state_t.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SchoolYear</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SchoolYear]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SchoolYear</remote-alias>
+              <ordinal>1</ordinal>
+              <family>2022_state_t.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Program</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Program]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Program</remote-alias>
+              <ordinal>2</ordinal>
+              <family>2022_state_t.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>StudentGroup</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[StudentGroup]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>StudentGroup</remote-alias>
+              <ordinal>3</ordinal>
+              <family>2022_state_t.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TotalStudents9-12</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TotalStudents9-12]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TotalStudents9-12</remote-alias>
+              <ordinal>4</ordinal>
+              <family>2022_state_t.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CSStudentsCIPorCourse</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CSStudentsCIPorCourse]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CSStudentsCIPorCourse</remote-alias>
+              <ordinal>5</ordinal>
+              <family>2022_state_t.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PctCSStudentsCIPorCourse</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PctCSStudentsCIPorCourse]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PctCSStudentsCIPorCourse</remote-alias>
+              <ordinal>6</ordinal>
+              <family>2022_state_t.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CSStudentsCourseOnly</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CSStudentsCourseOnly]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CSStudentsCourseOnly</remote-alias>
+              <ordinal>7</ordinal>
+              <family>2022_state_t.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PctCSStudentsCourseOnly</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PctCSStudentsCourseOnly]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PctCSStudentsCourseOnly</remote-alias>
+              <ordinal>8</ordinal>
+              <family>2022_state_t.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2022_state_t.csv_2F907F29E8A143AC9378908763411681]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:PctCSStudentsCourseOnly:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:PctCSStudentsCIPorCourse:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:PctCSStudentsCourseOnly:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:CSStudentsCourseOnly:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:Calculation_1735293271637258240:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:F1:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[__tableau_internal_object_id__].[cnt:2021_state_t.csv_936F24F4685B457F9E5A067A5FE27612:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:CSStudentsCIPorCourse:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:StudentGroup:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;9&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;English Language Learners&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Low-Income&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Students with Disabilities&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Hispanic/ Latino of any race(s)&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;12&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;White&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Native Hawaiian/ Other Pacific Islander&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Black/ African American&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Two or More Races&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;11&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Asian&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;10&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Gender X&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Non-English Language Learners&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Non-Low Income&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Students without Disabilities&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;American Indian/ Alaskan Native&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='2022_state_t.csv' id='2022_state_t.csv_2F907F29E8A143AC9378908763411681'>
+            <properties context=''>
+              <relation connection='textscan.1bn8ngk07p4ad318uvy3d03009hf' name='2022_state_t.csv' table='[2022_state_t#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='SchoolYear' ordinal='1' />
+                  <column datatype='string' name='Program' ordinal='2' />
+                  <column datatype='string' name='StudentGroup' ordinal='3' />
+                  <column datatype='integer' name='TotalStudents9-12' ordinal='4' />
+                  <column datatype='integer' name='CSStudentsCIPorCourse' ordinal='5' />
+                  <column datatype='real' name='PctCSStudentsCIPorCourse' ordinal='6' />
+                  <column datatype='integer' name='CSStudentsCourseOnly' ordinal='7' />
+                  <column datatype='real' name='PctCSStudentsCourseOnly' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='ELL Bar'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2022_state_t' name='federated.0drb1yb0kou10r1fsk15h0m9lr1y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0drb1yb0kou10r1fsk15h0m9lr1y'>
+            <column caption='CS Students CI Por Course' datatype='integer' name='[CSStudentsCIPorCourse]' role='measure' type='quantitative' />
+            <column caption='CS Students Course Only' datatype='integer' name='[CSStudentsCourseOnly]' role='measure' type='quantitative' />
+            <column caption='PctCSStudentsCIPOnly' datatype='real' default-format='p0.0%' name='[Calculation_1735293271637258240]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([CSStudentsCIPorCourse] - [CSStudentsCourseOnly])/[TotalStudents9-12]' />
+            </column>
+            <column caption='CSE Percentage' datatype='real' default-format='p0.0%' name='[Calculation_3475090104570486784]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if [TotalStudents9-12] &gt; 0 then&#13;&#10;    [CSStudentsCIPorCourse]/ [TotalStudents9-12]&#13;&#10;ELSE&#13;&#10;    0.0&#13;&#10;END' />
+            </column>
+            <column caption='Pct CS Students Course Only' datatype='real' default-format='p0.0%' name='[PctCSStudentsCourseOnly]' role='measure' type='quantitative' />
+            <column caption='Program1' datatype='string' name='[Program]' role='dimension' type='nominal' />
+            <column caption='Student Group' datatype='string' name='[StudentGroup]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;English Language Learners&quot;' value='ELL' />
+                <alias key='&quot;Non-English Language Learners&quot;' value='non-ELL' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[TotalStudents9-12]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1735293271637258240]' derivation='Avg' name='[avg:Calculation_1735293271637258240:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PctCSStudentsCourseOnly]' derivation='Avg' name='[avg:PctCSStudentsCourseOnly:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Program]' derivation='None' name='[none:Program:nk]' pivot='key' type='nominal' />
+            <column-instance column='[StudentGroup]' derivation='None' name='[none:StudentGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_3475090104570486784]' derivation='Sum' name='[sum:Calculation_3475090104570486784:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PctCSStudentsCourseOnly]' derivation='Sum' name='[sum:PctCSStudentsCourseOnly:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[sum:TotalStudents9-12:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:Calculation_1735293271637258240:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:PctCSStudentsCourseOnly:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:Calculation_1735293271637258240:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:PctCSStudentsCourseOnly:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]'>
+            <groupfilter function='member' level='[none:Program:nk]' member='&quot;ELL&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</column>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:Calculation_1735293271637258240:qk]' value='p0.0%' />
+            <format attr='text-format' field='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:PctCSStudentsCourseOnly:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]' />
+              <tooltip column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Student Group:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'># Students:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>CSE Percentage:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]</rows>
+        <cols>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</cols>
+      </table>
+      <simple-id uuid='{95EF8B0E-632D-4EA4-99EA-58F15EEC788A}' />
+    </worksheet>
+    <worksheet name='ELL Pie'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>English Language Learner</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2022_state_t' name='federated.0drb1yb0kou10r1fsk15h0m9lr1y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0drb1yb0kou10r1fsk15h0m9lr1y'>
+            <column caption='Program1' datatype='string' name='[Program]' role='dimension' type='nominal' />
+            <column caption='Student Group' datatype='string' name='[StudentGroup]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;English Language Learners&quot;' value='ELL' />
+                <alias key='&quot;Non-English Language Learners&quot;' value='non-ELL' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[TotalStudents9-12]' role='measure' type='quantitative' />
+            <column-instance column='[Program]' derivation='None' name='[none:Program:nk]' pivot='key' type='nominal' />
+            <column-instance column='[StudentGroup]' derivation='None' name='[none:StudentGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[pcto:sum:TotalStudents9-12:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[sum:TotalStudents9-12:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]'>
+            <groupfilter function='member' level='[none:Program:nk]' member='&quot;ELL&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' />
+              <wedge-size column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+              <size column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Student Group:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>% of Students:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Total Students: &#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A86B3FC3-B851-459C-8B77-E12AE15FBBAE}' />
+    </worksheet>
+    <worksheet name='Ethnic Bar'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2022_state_t' name='federated.0drb1yb0kou10r1fsk15h0m9lr1y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0drb1yb0kou10r1fsk15h0m9lr1y'>
+            <column caption='CS Students CI Por Course' datatype='integer' name='[CSStudentsCIPorCourse]' role='measure' type='quantitative' />
+            <column caption='CS Students Course Only' datatype='integer' name='[CSStudentsCourseOnly]' role='measure' type='quantitative' />
+            <column caption='PctCSStudentsCIPOnly' datatype='real' default-format='p0.0%' name='[Calculation_1735293271637258240]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([CSStudentsCIPorCourse] - [CSStudentsCourseOnly])/[TotalStudents9-12]' />
+            </column>
+            <column caption='CSE Percentage' datatype='real' default-format='p0.0%' name='[Calculation_3475090104570486784]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if [TotalStudents9-12] &gt; 0 then&#13;&#10;    [CSStudentsCIPorCourse]/ [TotalStudents9-12]&#13;&#10;ELSE&#13;&#10;    0.0&#13;&#10;END' />
+            </column>
+            <column caption='Pct CS Students Course Only' datatype='real' default-format='p0.0%' name='[PctCSStudentsCourseOnly]' role='measure' type='quantitative' />
+            <column caption='Program1' datatype='string' name='[Program]' role='dimension' type='nominal' />
+            <column caption='Student Group' datatype='string' name='[StudentGroup]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;English Language Learners&quot;' value='ELL' />
+                <alias key='&quot;Non-English Language Learners&quot;' value='non-ELL' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[TotalStudents9-12]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1735293271637258240]' derivation='Avg' name='[avg:Calculation_1735293271637258240:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Program]' derivation='None' name='[none:Program:nk]' pivot='key' type='nominal' />
+            <column-instance column='[StudentGroup]' derivation='None' name='[none:StudentGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_3475090104570486784]' derivation='Sum' name='[sum:Calculation_3475090104570486784:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PctCSStudentsCourseOnly]' derivation='Sum' name='[sum:PctCSStudentsCourseOnly:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[sum:TotalStudents9-12:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:Calculation_1735293271637258240:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:PctCSStudentsCourseOnly:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]'>
+            <groupfilter function='member' level='[none:Program:nk]' member='&quot;FederalEthRaceRollupName&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:StudentGroup:nk]' />
+              <groupfilter function='member' level='[none:StudentGroup:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Male&quot;</bucket>
+              <bucket>&quot;Female&quot;</bucket>
+              <bucket>&quot;Gender X&quot;</bucket>
+              <bucket>&quot;White&quot;</bucket>
+              <bucket>&quot;Hispanic/ Latino of any race(s)&quot;</bucket>
+              <bucket>&quot;Asian&quot;</bucket>
+              <bucket>&quot;Black/ African American&quot;</bucket>
+              <bucket>&quot;American Indian/ Alaskan Native&quot;</bucket>
+              <bucket>&quot;Native Hawaiian/ Other Pacific Islander&quot;</bucket>
+              <bucket>&quot;Two or More Races&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</column>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</column>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]' />
+              <tooltip column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Student Group:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'># Students:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>CSE Percentage:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]</rows>
+        <cols>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</cols>
+      </table>
+      <simple-id uuid='{55AFF08D-BEB8-4C6A-BC95-61F1767BA783}' />
+    </worksheet>
+    <worksheet name='Ethnic Pie'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Ethnicity</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2022_state_t' name='federated.0drb1yb0kou10r1fsk15h0m9lr1y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0drb1yb0kou10r1fsk15h0m9lr1y'>
+            <column caption='Program1' datatype='string' name='[Program]' role='dimension' type='nominal' />
+            <column caption='Student Group' datatype='string' name='[StudentGroup]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;English Language Learners&quot;' value='ELL' />
+                <alias key='&quot;Non-English Language Learners&quot;' value='non-ELL' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[TotalStudents9-12]' role='measure' type='quantitative' />
+            <column-instance column='[Program]' derivation='None' name='[none:Program:nk]' pivot='key' type='nominal' />
+            <column-instance column='[StudentGroup]' derivation='None' name='[none:StudentGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[pcto:sum:TotalStudents9-12:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[sum:TotalStudents9-12:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]'>
+            <groupfilter function='member' level='[none:Program:nk]' member='&quot;FederalEthRaceRollupName&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:StudentGroup:nk]' />
+              <groupfilter function='member' level='[none:StudentGroup:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;White&quot;</bucket>
+              <bucket>&quot;Hispanic/ Latino of any race(s)&quot;</bucket>
+              <bucket>&quot;Asian&quot;</bucket>
+              <bucket>&quot;Black/ African American&quot;</bucket>
+              <bucket>&quot;American Indian/ Alaskan Native&quot;</bucket>
+              <bucket>&quot;Native Hawaiian/ Other Pacific Islander&quot;</bucket>
+              <bucket>&quot;Two or More Races&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</column>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' />
+              <wedge-size column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+              <size column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Student Group:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>% of Students:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Total Students: &#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+                  <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]</field>
+                  <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Native Hawaiian/ Other Pacific Islander&quot;</value>
+                <value>4445</value>
+                <value>0.012471906644481917</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+                  <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]</field>
+                  <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Indian/ Alaskan Native&quot;</value>
+                <value>4903</value>
+                <value>0.013756975990527524</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{82F35C6D-D49A-4BC3-8FEA-694549DBB496}' />
+    </worksheet>
+    <worksheet name='FRL Bar'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2022_state_t' name='federated.0drb1yb0kou10r1fsk15h0m9lr1y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0drb1yb0kou10r1fsk15h0m9lr1y'>
+            <column caption='CS Students CI Por Course' datatype='integer' name='[CSStudentsCIPorCourse]' role='measure' type='quantitative' />
+            <column caption='CS Students Course Only' datatype='integer' name='[CSStudentsCourseOnly]' role='measure' type='quantitative' />
+            <column caption='PctCSStudentsCIPOnly' datatype='real' default-format='p0.0%' name='[Calculation_1735293271637258240]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([CSStudentsCIPorCourse] - [CSStudentsCourseOnly])/[TotalStudents9-12]' />
+            </column>
+            <column caption='CSE Percentage' datatype='real' default-format='p0.0%' name='[Calculation_3475090104570486784]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if [TotalStudents9-12] &gt; 0 then&#13;&#10;    [CSStudentsCIPorCourse]/ [TotalStudents9-12]&#13;&#10;ELSE&#13;&#10;    0.0&#13;&#10;END' />
+            </column>
+            <column caption='Pct CS Students Course Only' datatype='real' default-format='p0.0%' name='[PctCSStudentsCourseOnly]' role='measure' type='quantitative' />
+            <column caption='Program1' datatype='string' name='[Program]' role='dimension' type='nominal' />
+            <column caption='Student Group' datatype='string' name='[StudentGroup]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;English Language Learners&quot;' value='ELL' />
+                <alias key='&quot;Non-English Language Learners&quot;' value='non-ELL' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[TotalStudents9-12]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1735293271637258240]' derivation='Avg' name='[avg:Calculation_1735293271637258240:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Program]' derivation='None' name='[none:Program:nk]' pivot='key' type='nominal' />
+            <column-instance column='[StudentGroup]' derivation='None' name='[none:StudentGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_3475090104570486784]' derivation='Sum' name='[sum:Calculation_3475090104570486784:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PctCSStudentsCourseOnly]' derivation='Sum' name='[sum:PctCSStudentsCourseOnly:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[sum:TotalStudents9-12:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:Calculation_1735293271637258240:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:PctCSStudentsCourseOnly:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]'>
+            <groupfilter function='member' level='[none:Program:nk]' member='&quot;FRL&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Male&quot;</bucket>
+              <bucket>&quot;Female&quot;</bucket>
+              <bucket>&quot;Gender X&quot;</bucket>
+              <bucket>&quot;White&quot;</bucket>
+              <bucket>&quot;American Indian/ Alaskan Native&quot;</bucket>
+              <bucket>&quot;Asian&quot;</bucket>
+              <bucket>&quot;Black/ African American&quot;</bucket>
+              <bucket>&quot;Hispanic/ Latino of any race(s)&quot;</bucket>
+              <bucket>&quot;Native Hawaiian/ Other Pacific Islander&quot;</bucket>
+              <bucket>&quot;Two or More Races&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</column>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]' />
+              <tooltip column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Student Group:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>CSE Percentage:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'># Students:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]</rows>
+        <cols>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</cols>
+      </table>
+      <simple-id uuid='{0E473073-70A6-4B7C-AA71-EA93E37EA3D2}' />
+    </worksheet>
+    <worksheet name='FRL Pie'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Income Level</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2022_state_t' name='federated.0drb1yb0kou10r1fsk15h0m9lr1y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0drb1yb0kou10r1fsk15h0m9lr1y'>
+            <column caption='Program1' datatype='string' name='[Program]' role='dimension' type='nominal' />
+            <column caption='Student Group' datatype='string' name='[StudentGroup]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;English Language Learners&quot;' value='ELL' />
+                <alias key='&quot;Non-English Language Learners&quot;' value='non-ELL' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[TotalStudents9-12]' role='measure' type='quantitative' />
+            <column-instance column='[Program]' derivation='None' name='[none:Program:nk]' pivot='key' type='nominal' />
+            <column-instance column='[StudentGroup]' derivation='None' name='[none:StudentGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[pcto:sum:TotalStudents9-12:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[sum:TotalStudents9-12:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]'>
+            <groupfilter function='member' level='[none:Program:nk]' member='&quot;FRL&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' />
+              <wedge-size column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+              <size column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Student Group:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>% of Students:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Total Students: &#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BE13C96C-46B9-4649-B8E5-37D0C23C056E}' />
+    </worksheet>
+    <worksheet name='Gender Bar'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2022_state_t' name='federated.0drb1yb0kou10r1fsk15h0m9lr1y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0drb1yb0kou10r1fsk15h0m9lr1y'>
+            <column caption='CS Students CI Por Course' datatype='integer' name='[CSStudentsCIPorCourse]' role='measure' type='quantitative' />
+            <column caption='CS Students Course Only' datatype='integer' name='[CSStudentsCourseOnly]' role='measure' type='quantitative' />
+            <column caption='PctCSStudentsCIPOnly' datatype='real' default-format='p0.0%' name='[Calculation_1735293271637258240]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([CSStudentsCIPorCourse] - [CSStudentsCourseOnly])/[TotalStudents9-12]' />
+            </column>
+            <column caption='CSE Percentage' datatype='real' default-format='p0.0%' name='[Calculation_3475090104570486784]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if [TotalStudents9-12] &gt; 0 then&#13;&#10;    [CSStudentsCIPorCourse]/ [TotalStudents9-12]&#13;&#10;ELSE&#13;&#10;    0.0&#13;&#10;END' />
+            </column>
+            <column caption='Pct CS Students Course Only' datatype='real' default-format='p0.0%' name='[PctCSStudentsCourseOnly]' role='measure' type='quantitative' />
+            <column caption='Program1' datatype='string' name='[Program]' role='dimension' type='nominal' />
+            <column caption='Student Group' datatype='string' name='[StudentGroup]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;English Language Learners&quot;' value='ELL' />
+                <alias key='&quot;Non-English Language Learners&quot;' value='non-ELL' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[TotalStudents9-12]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1735293271637258240]' derivation='Avg' name='[avg:Calculation_1735293271637258240:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Program]' derivation='None' name='[none:Program:nk]' pivot='key' type='nominal' />
+            <column-instance column='[StudentGroup]' derivation='None' name='[none:StudentGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_3475090104570486784]' derivation='Sum' name='[sum:Calculation_3475090104570486784:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PctCSStudentsCourseOnly]' derivation='Sum' name='[sum:PctCSStudentsCourseOnly:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[sum:TotalStudents9-12:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:Calculation_1735293271637258240:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:PctCSStudentsCourseOnly:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]'>
+            <groupfilter function='member' level='[none:Program:nk]' member='&quot;GenderType&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Male&quot;</bucket>
+              <bucket>&quot;Female&quot;</bucket>
+              <bucket>&quot;Gender X&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</column>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]' />
+              <tooltip column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Student Group:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'># Students:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>CSE Percentage:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]</rows>
+        <cols>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</cols>
+      </table>
+      <simple-id uuid='{38A157BD-15FA-48A4-BB7F-2FDE99E9576D}' />
+    </worksheet>
+    <worksheet name='Gender Pie'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Gender</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2022_state_t' name='federated.0drb1yb0kou10r1fsk15h0m9lr1y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0drb1yb0kou10r1fsk15h0m9lr1y'>
+            <column caption='Program1' datatype='string' name='[Program]' role='dimension' type='nominal' />
+            <column caption='Student Group' datatype='string' name='[StudentGroup]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;English Language Learners&quot;' value='ELL' />
+                <alias key='&quot;Non-English Language Learners&quot;' value='non-ELL' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[TotalStudents9-12]' role='measure' type='quantitative' />
+            <column-instance column='[Program]' derivation='None' name='[none:Program:nk]' pivot='key' type='nominal' />
+            <column-instance column='[StudentGroup]' derivation='None' name='[none:StudentGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[pcto:sum:TotalStudents9-12:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[sum:TotalStudents9-12:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]'>
+            <groupfilter function='member' level='[none:Program:nk]' member='&quot;GenderType&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' />
+              <wedge-size column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+              <size column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Student Group:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Total Students: &#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>% of Students:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3A5A3627-FCAD-433B-9A45-BB0F2B3B5B52}' />
+    </worksheet>
+    <worksheet name='Grade Bar'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2022_state_t' name='federated.0drb1yb0kou10r1fsk15h0m9lr1y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0drb1yb0kou10r1fsk15h0m9lr1y'>
+            <column caption='CS Students CI Por Course' datatype='integer' name='[CSStudentsCIPorCourse]' role='measure' type='quantitative' />
+            <column caption='CS Students Course Only' datatype='integer' name='[CSStudentsCourseOnly]' role='measure' type='quantitative' />
+            <column caption='PctCSStudentsCIPOnly' datatype='real' default-format='p0.0%' name='[Calculation_1735293271637258240]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([CSStudentsCIPorCourse] - [CSStudentsCourseOnly])/[TotalStudents9-12]' />
+            </column>
+            <column caption='CSE Percentage' datatype='real' default-format='p0.0%' name='[Calculation_3475090104570486784]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if [TotalStudents9-12] &gt; 0 then&#13;&#10;    [CSStudentsCIPorCourse]/ [TotalStudents9-12]&#13;&#10;ELSE&#13;&#10;    0.0&#13;&#10;END' />
+            </column>
+            <column caption='Pct CS Students Course Only' datatype='real' default-format='p0.0%' name='[PctCSStudentsCourseOnly]' role='measure' type='quantitative' />
+            <column caption='Program1' datatype='string' name='[Program]' role='dimension' type='nominal' />
+            <column caption='Student Group' datatype='string' name='[StudentGroup]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;English Language Learners&quot;' value='ELL' />
+                <alias key='&quot;Non-English Language Learners&quot;' value='non-ELL' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[TotalStudents9-12]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1735293271637258240]' derivation='Avg' name='[avg:Calculation_1735293271637258240:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Program]' derivation='None' name='[none:Program:nk]' pivot='key' type='nominal' />
+            <column-instance column='[StudentGroup]' derivation='None' name='[none:StudentGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_3475090104570486784]' derivation='Sum' name='[sum:Calculation_3475090104570486784:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PctCSStudentsCourseOnly]' derivation='Sum' name='[sum:PctCSStudentsCourseOnly:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[sum:TotalStudents9-12:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:Calculation_1735293271637258240:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:PctCSStudentsCourseOnly:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]'>
+            <groupfilter function='member' level='[none:Program:nk]' member='&quot;GradeLevel&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Male&quot;</bucket>
+              <bucket>&quot;Female&quot;</bucket>
+              <bucket>&quot;Gender X&quot;</bucket>
+              <bucket>&quot;White&quot;</bucket>
+              <bucket>&quot;American Indian/ Alaskan Native&quot;</bucket>
+              <bucket>&quot;Asian&quot;</bucket>
+              <bucket>&quot;Black/ African American&quot;</bucket>
+              <bucket>&quot;Hispanic/ Latino of any race(s)&quot;</bucket>
+              <bucket>&quot;Native Hawaiian/ Other Pacific Islander&quot;</bucket>
+              <bucket>&quot;Two or More Races&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</column>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]' />
+              <tooltip column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Student Group:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'># Students:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>CSE Percentage:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]</rows>
+        <cols>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</cols>
+      </table>
+      <simple-id uuid='{A6369236-B45D-4448-8D6F-F00D4AE5F91E}' />
+    </worksheet>
+    <worksheet name='Grade Pie'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Grade</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2022_state_t' name='federated.0drb1yb0kou10r1fsk15h0m9lr1y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0drb1yb0kou10r1fsk15h0m9lr1y'>
+            <column caption='Program1' datatype='string' name='[Program]' role='dimension' type='nominal' />
+            <column caption='Student Group' datatype='string' name='[StudentGroup]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;English Language Learners&quot;' value='ELL' />
+                <alias key='&quot;Non-English Language Learners&quot;' value='non-ELL' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[TotalStudents9-12]' role='measure' type='quantitative' />
+            <column-instance column='[Program]' derivation='None' name='[none:Program:nk]' pivot='key' type='nominal' />
+            <column-instance column='[StudentGroup]' derivation='None' name='[none:StudentGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[pcto:sum:TotalStudents9-12:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[sum:TotalStudents9-12:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]'>
+            <groupfilter function='member' level='[none:Program:nk]' member='&quot;GradeLevel&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' />
+              <wedge-size column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+              <size column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Student Group:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>% of Students:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Total Students: &#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{522A6F40-0BA1-4EED-B30B-08F2C0DF9D21}' />
+    </worksheet>
+    <worksheet name='SWD Bar'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2022_state_t' name='federated.0drb1yb0kou10r1fsk15h0m9lr1y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0drb1yb0kou10r1fsk15h0m9lr1y'>
+            <column caption='CS Students CI Por Course' datatype='integer' name='[CSStudentsCIPorCourse]' role='measure' type='quantitative' />
+            <column caption='CS Students Course Only' datatype='integer' name='[CSStudentsCourseOnly]' role='measure' type='quantitative' />
+            <column caption='PctCSStudentsCIPOnly' datatype='real' default-format='p0.0%' name='[Calculation_1735293271637258240]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([CSStudentsCIPorCourse] - [CSStudentsCourseOnly])/[TotalStudents9-12]' />
+            </column>
+            <column caption='CSE Percentage' datatype='real' default-format='p0.0%' name='[Calculation_3475090104570486784]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if [TotalStudents9-12] &gt; 0 then&#13;&#10;    [CSStudentsCIPorCourse]/ [TotalStudents9-12]&#13;&#10;ELSE&#13;&#10;    0.0&#13;&#10;END' />
+            </column>
+            <column caption='Pct CS Students Course Only' datatype='real' default-format='p0.0%' name='[PctCSStudentsCourseOnly]' role='measure' type='quantitative' />
+            <column caption='Program1' datatype='string' name='[Program]' role='dimension' type='nominal' />
+            <column caption='Student Group' datatype='string' name='[StudentGroup]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;English Language Learners&quot;' value='ELL' />
+                <alias key='&quot;Non-English Language Learners&quot;' value='non-ELL' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[TotalStudents9-12]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1735293271637258240]' derivation='Avg' name='[avg:Calculation_1735293271637258240:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Program]' derivation='None' name='[none:Program:nk]' pivot='key' type='nominal' />
+            <column-instance column='[StudentGroup]' derivation='None' name='[none:StudentGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_3475090104570486784]' derivation='Sum' name='[sum:Calculation_3475090104570486784:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PctCSStudentsCourseOnly]' derivation='Sum' name='[sum:PctCSStudentsCourseOnly:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[sum:TotalStudents9-12:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:Calculation_1735293271637258240:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:PctCSStudentsCourseOnly:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]'>
+            <groupfilter function='member' level='[none:Program:nk]' member='&quot;SWD&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Male&quot;</bucket>
+              <bucket>&quot;Female&quot;</bucket>
+              <bucket>&quot;Gender X&quot;</bucket>
+              <bucket>&quot;White&quot;</bucket>
+              <bucket>&quot;American Indian/ Alaskan Native&quot;</bucket>
+              <bucket>&quot;Asian&quot;</bucket>
+              <bucket>&quot;Black/ African American&quot;</bucket>
+              <bucket>&quot;Hispanic/ Latino of any race(s)&quot;</bucket>
+              <bucket>&quot;Native Hawaiian/ Other Pacific Islander&quot;</bucket>
+              <bucket>&quot;Two or More Races&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</column>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]' />
+              <tooltip column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:Calculation_3475090104570486784:qk]</rows>
+        <cols>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</cols>
+      </table>
+      <simple-id uuid='{C4100013-0F1E-4D83-AE62-472B17639186}' />
+    </worksheet>
+    <worksheet name='SWD PIe'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Student With Disabilities</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2022_state_t' name='federated.0drb1yb0kou10r1fsk15h0m9lr1y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0drb1yb0kou10r1fsk15h0m9lr1y'>
+            <column caption='Program1' datatype='string' name='[Program]' role='dimension' type='nominal' />
+            <column caption='Student Group' datatype='string' name='[StudentGroup]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;English Language Learners&quot;' value='ELL' />
+                <alias key='&quot;Non-English Language Learners&quot;' value='non-ELL' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[TotalStudents9-12]' role='measure' type='quantitative' />
+            <column-instance column='[Program]' derivation='None' name='[none:Program:nk]' pivot='key' type='nominal' />
+            <column-instance column='[StudentGroup]' derivation='None' name='[none:StudentGroup:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[pcto:sum:TotalStudents9-12:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[TotalStudents9-12]' derivation='Sum' name='[sum:TotalStudents9-12:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]'>
+            <groupfilter function='member' level='[none:Program:nk]' member='&quot;SWD&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' />
+              <wedge-size column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+              <size column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]' />
+              <text column='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Student Group:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>% of Students:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Total Students: &#9;</run>
+                <run bold='true'><![CDATA[<[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</run>
+                <run>&gt;&#10;&lt;</run>
+                <run>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[pcto:sum:TotalStudents9-12:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3C4FE531-841C-43E8-BE85-A342A6C6F71B}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='ELL/SWD'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='49000' id='3' name='ELL Bar' show-title='false' w='49200' x='50000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='9' name='ELL Pie' w='49200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='12' name='SWD PIe' w='49200' x='800' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='13' name='SWD Bar' show-title='false' w='49200' x='50000' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='29' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='28' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='ELL Pie' w='49200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='ELL Bar' show-title='false' w='49200' x='50000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='12' is-fixed='true' name='SWD PIe' w='49200' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='13' is-fixed='true' name='SWD Bar' show-title='false' w='49200' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C97E9363-23E0-45B3-A195-979E99ECB980}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Gender/Ethnicity'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='23' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='37500' id='3' name='Gender Pie' w='49200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='37500' id='10' name='Gender Bar' show-title='false' w='49200' x='50000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='60500' id='12' name='Ethnic Pie' w='49200' x='800' y='38500'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='60500' id='13' name='Ethnic Bar' show-title='false' w='49200' x='50000' y='38500'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='19750' id='24' name='Ethnic Pie' pane-specification-id='0' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' type-v2='color' w='20900' x='28600' y='37375' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='31' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='37500' id='3' is-fixed='true' name='Gender Pie' w='49200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37500' id='10' is-fixed='true' name='Gender Bar' show-title='false' w='49200' x='50000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='60500' id='12' is-fixed='true' name='Ethnic Pie' w='49200' x='800' y='38500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='19750' id='24' name='Ethnic Pie' pane-specification-id='0' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' type-v2='color' w='20900' x='28600' y='37375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='60500' id='13' is-fixed='true' name='Ethnic Bar' show-title='false' w='49200' x='50000' y='38500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C006C40D-9836-40FD-B7B6-FEDE91139B9E}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Income/Grade'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='49000' id='3' name='FRL Pie' w='49200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='10' name='FRL Bar' show-title='false' w='49200' x='50000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='12' name='Grade Pie' w='49200' x='800' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='13' name='Grade Bar' show-title='false' w='49200' x='50000' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='29' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='28' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='FRL Pie' w='49200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='10' is-fixed='true' name='FRL Bar' show-title='false' w='49200' x='50000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='12' is-fixed='true' name='Grade Pie' w='49200' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='13' is-fixed='true' name='Grade Bar' show-title='false' w='49200' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D603A124-B12F-44C9-9D3E-2773024BCA30}' />
+    </dashboard>
+    <dashboard name='State-wide' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Washington CS Ed participation Demographics 2021-22</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='3423' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='4253' />
+            <zone h='84440' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='14730'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Gender/Enthnicity Info' captured-sheet='Gender/Ethnicity' id='1' />
+                  <story-point caption='ELL/SWD Info' captured-sheet='ELL/SWD' id='2'>
+                    <capturedDeltas>
+                      <worksheet name='ELL Bar'>
+                        <highlight field='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]'>
+                          <color-one-way>
+                            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</field>
+                          </color-one-way>
+                          <bucket-selection>
+                            <bucket>&quot;[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[avg:Calculation_1735293271637258240:qk]&quot;</bucket>
+                          </bucket-selection>
+                        </highlight>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='Income/Grade' captured-sheet='Income/Grade' id='3' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='5602' id='6' story-point-id='1' type-v2='text' w='32382' x='33760' y='10166'>
+          <formatted-text>
+            <run>Total Students: 360,962
+Total CS Enrollments: 30,387 (8.4%)</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='5602' hidden='true' id='7' story-point-id='2' type-v2='text' w='32382' x='31594' y='13174'>
+          <formatted-text>
+            <run>Total Students: 360,962
+Total CS Enrollments: 30,387 (8.4%)</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='5602' hidden='true' id='8' story-point-id='3' type-v2='text' w='32382' x='33366' y='12863'>
+          <formatted-text>
+            <run>Total Students: 360,962
+Total CS Enrollments: 30,387 (8.4%)</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{B00117F4-DB9C-4D0D-8BE4-F712E4B35854}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' maximized='true' name='State-wide'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{0BFE23D4-0AC1-43F6-AEC2-D6215804F67C}' />
+    </window>
+    <window class='worksheet' hidden='true' name='ELL Bar'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BBCC856E-5B6F-4F7E-BA23-A4C7B4FEAAE0}' />
+    </window>
+    <window class='worksheet' hidden='true' name='ELL Pie'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{56622ADF-F0B2-4E6E-8127-CA0018623CC8}' />
+    </window>
+    <window class='dashboard' hidden='true' name='ELL/SWD'>
+      <viewpoints>
+        <viewpoint name='ELL Bar'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='ELL Pie'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='SWD Bar'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='SWD PIe'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{87936FFE-520D-4FF2-AAE3-82074376D651}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Ethnic Bar'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{155A098E-11C4-4242-A454-DF855BCD692E}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Ethnic Pie'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{37DE1A2C-D596-4EC7-9BE1-DE5285FB5477}' />
+    </window>
+    <window class='worksheet' hidden='true' name='FRL Bar'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C24D6C4D-C227-479C-AD2B-FFAB2BF73912}' />
+    </window>
+    <window class='worksheet' hidden='true' name='FRL Pie'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4AA28BFB-9F52-4A62-947B-BC1527F4A5C3}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Gender Bar'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E8E007D5-541E-4C0E-9D95-1EFA77DC7BE9}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Gender Pie'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F7DBED15-CA7E-492C-BEBD-08A8F31329E5}' />
+    </window>
+    <window class='dashboard' hidden='true' name='Gender/Ethnicity'>
+      <viewpoints>
+        <viewpoint name='Ethnic Bar'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Ethnic Pie'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Gender Bar'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Gender Pie'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{2F2071B3-55F3-4E74-82C5-7D8A8FD6DDC9}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Grade Bar'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{08DE8986-B92E-4FA3-B5F3-372B3154FCEB}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Grade Pie'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C0D76AE8-83EB-4C98-A742-4128CEBC169F}' />
+    </window>
+    <window class='dashboard' hidden='true' name='Income/Grade'>
+      <viewpoints>
+        <viewpoint name='FRL Bar'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='FRL Pie'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Grade Bar'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Grade Pie'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{9C75A91D-2B2D-496E-B2CE-621B709066C8}' />
+    </window>
+    <window class='worksheet' hidden='true' name='SWD Bar'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4AB6FA65-D1A4-4906-8E48-2A4AF7AC25FB}' />
+    </window>
+    <window class='worksheet' hidden='true' name='SWD PIe'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[sum:TotalStudents9-12:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[:Measure Names]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:Program:nk]</field>
+            <field>[federated.0drb1yb0kou10r1fsk15h0m9lr1y].[none:StudentGroup:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B3B44FFA-5E8C-485D-A67E-BBE39A1EC984}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='State-wide' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
