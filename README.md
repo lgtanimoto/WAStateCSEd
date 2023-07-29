@@ -32,7 +32,7 @@ State Legislative and Congressional Districts: After getting state legislature a
 
 **Main Source Data File**: Computer Science Course Enrollment and Educator Data 2020-21 SY.xlsx taken from <https://www.k12.wa.us/sites/default/files/public/secondaryeducation/Operations/Computer%20Science%20Course%20Enrollment%20and%20Educator%20Data%202020-21%20SY.xlsx> taken from [Computer Science | OSPI (www.k12.wa.us)](https://www.k12.wa.us/student-success/resources-subject-area/computer-science) on 5/20/2023
 
-For this dashboard, the file 2021\_State.csv was created by taking the “State” sheet from the source Excel file, deleting the blank row, and renaming some columns.
+For this dashboard, the file 2021_state_t.csv was from the source Excel file using CSVCleanup2021.py.   Basically, it deleted the blank row, and renaming some columns.
 
 ## Washington State CS Education Teachers 2020-21
 
